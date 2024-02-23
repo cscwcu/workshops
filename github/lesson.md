@@ -21,13 +21,7 @@ This workshop will cover the basics of using GitHub. We will cover the following
 
 A version control system (VCS) is a tool that helps you manage changes to your code over time. It allows you to revert to previous versions, track changes, and collaborate with other developers.
 
-Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It enables multiple developers to work together on the same project without interfering with each other's work. This workshop will introduce you to the basics of Git, GitHub, and how to use them to manage your code.
-
-**Why Git?**
-
-1. **Version Control:** Git tracks and manages changes to your code. Each change creates a new "commit" with a unique ID, making it easy to revert to previous versions if something goes wrong.
-2. **Collaboration:** Git allows multiple developers to work on the same project simultaneously. You can merge changes from different team members seamlessly. It's a good way to get new changes from project partners quickly.
-3. **Branching:** Git's branching model lets you work on different features or fixes without affecting the main project (often referred to as the "main" branch). This way, you can experiment and make changes in a controlled environment.
+Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It enables multiple developers to work together on the same project without interfering with each other's work. This workshop will introduce you to the basics of Git, GitHub, and how to use them to manage your code. We will also cover GitHub and some best practices for collaborating with others on a project.
 
 ## 1. Installing and using git on the command line
 
@@ -91,3 +85,55 @@ The commands you will use the most in your git workflow are `git status`, `git a
 10. Run `git status` one more time. You should see that there are no changes to commit.
 
 Congratulations! You've created a new repository and made some changes to it. You can use `git log` to see the history of your repository, and `git diff` to see the changes you've made to your files.
+
+## 2. Creating a local repository and pushing it to GitHub
+
+Now that you know how to create a new repository and make changes to it, let's push it to GitHub. GitHub is a web-based platform that allows you to store and manage your code in the cloud. It also provides tools for collaborating with others on your projects.
+
+If you don't already have a GitHub account, you can create one at [https://github.com/signup](https://github.com/signup).
+
+### Exercise 2.1
+
+1. Go to [https://github.com/new](https://github.com/new) and create a new repository called `my-repo`.
+2. Copy the URL of the repository. It should look something like `https://github.com/your-username/my-repo`.
+3. In your terminal, run `git remote add origin <url>` to add the remote repository to your local repository. Replace `<url>` with the URL of your repository.
+
+- **git remote add:** Adds a new remote repository to your local repository. A remote repository is a version of your repository that is hosted on a server, such as GitHub. The first argument is the name of the remote (in this case, `origin`), and the second argument is the URL of the remote repository.
+
+4. Run `git push -u origin master` to push your local repository to GitHub.
+
+- **git push:** Pushes your local repository to a remote repository. The `-u` flag sets the upstream branch for the current branch, so that in the future, you can use `git push` without any arguments to push your changes to the remote repository.
+
+Now if you go to your repository on GitHub (you may need to refresh the page), you should see the `hello.txt` file you created in your local repository.
+
+### Exercise 2.2
+
+Now that your repository is on GitHub, you can make changes to it from your local machine and push them to GitHub. This exercise will guide you through making some changes to your repository and pushing them to GitHub.
+
+1. Open the `hello.txt` file in your text editor and make some changes to it.
+2. Run `git status` to see the current state of your repository. You should see that `hello.txt` has been modified.
+3. Run `git add hello.txt` to add the changes to the staging area.
+4. Run `git commit -m "Update hello.txt"` to commit the changes to the repository.
+5. Run `git push` to push the changes to GitHub.
+
+Now if you go to your repository on GitHub, you should see the changes you made to `hello.txt`.
+
+## 3. Creating a new repository on GitHub and cloning it to your local machine
+
+Often times, you'll be working with code that someone has already worked on and published to GitHub. In this case, you'll want to clone the repository to your local machine so you can make changes to it. Cloning a repository creates a copy of the repository on your local machine, including all the files and the entire history of the project.
+
+### Exercise 3.1
+
+This exercise will guide you through creating a new repository on GitHub and cloning it to your local machine.
+
+1. Go to [https://github.com/new](https://github.com/new) and create a new repository called `my-github-repo`.
+2. When creating your repository, be sure to check the box that says "Initialize this repository with a README". This will create a `README.md` file in your repository.
+3. Copy the URL of the repository.
+4. In your terminal, navigate to a directory where you want to clone the repository.
+5. Run `git clone <url>` to clone the repository to your local machine. Replace `<url>` with the URL of your repository.
+6. Navigate into the `my-github-repo` directory. Notice that there is a `README.md` file in the directory. This is the file that was created when you initialized the repository on GitHub.
+7. Try making some changes to the `README.md` file, adding the changes to the staging area, committing the changes, and pushing them to GitHub.
+
+Congratualtions! You've created a new repository on GitHub and cloned it to your local machine.
+
+## 4. Collaborating with others on GitHub
