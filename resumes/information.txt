@@ -1,0 +1,27 @@
+CS Club Resume Workshop + Opportunities
+
+---------------------------------------------------------------------------------
+Resume Templates -
+Latex: https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+Google Docs: https://docs.google.com/document/d/1-zYj3CF0dNQ16rCZ3T_IFtQYj89JmkR5/edit?usp=sharing&ouid=101943715902884907201&rtpof=true&sd=true
+CS Action Verbs: https://wmich.edu/sites/default/files/attachments/u86/2013/IT%20Keywords.pdf
+ ---------------------------------------------------------------------------------
+Finding Internships -
+Github: https://github.com/SimplifyJobs/Summer2024-Internships
+LinkedIn (Need Account): https://www.linkedin.com/jobs/swe-internship-summer-jobs/?currentJobId=3741427173
+Handshake (Need Account): https://joinhandshake.com/
+Indeed: https://www.indeed.com/q-summer-2024-software-engineering-internship-jobs.html?vjk=eca26cc035e08cf3
+Wayup: https://www.wayup.com/s/internships/computer-science/
+---------------------------------------------------------------------------------
+CodePath (Free Interview Prep and CS Career-Related Courses)
+https://www.codepath.org/courses
+---------------------------------------------------------------------------------
+Company Salary/Pay Viewer:
+https://www.levels.fyi/
+---------------------------------------------------------------------------------
+GitFront.io (Repository Sharing via URL):
+https://gitfront.io/
+---------------------------------------------------------------------------------
+WCU CCPD (Resume/Interview Prep Help):
+https://www.wcu.edu/learn/academic-enrichment/ccpd/index.aspx
+---------------------------------------------------------------------------------
