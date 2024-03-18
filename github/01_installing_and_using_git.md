@@ -1,5 +1,7 @@
 ## 1. Installing and using git on the command line
 
+[Home](README.md)
+
 To install git on your local machine, go to [https://git-scm.com/downloads](https://git-scm.com/downloads) and download the appropriate version for your operating system.
 
 Git is installed on Agora, so if you can't install it now, you can use it there for the next steps.
@@ -60,3 +62,5 @@ The commands you will use the most in your git workflow are `git status`, `git a
 10. Run `git status` one more time. You should see that there are no changes to commit.
 
 Congratulations! You've created a new repository and made some changes to it. You can use `git log` to see the history of your repository, and `git diff` to see the changes you've made to your files.
+
+[Next: Creating a Local Repository and Pushing it to GitHub](02_creating_a_local_and_pushing.md)

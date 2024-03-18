@@ -1,5 +1,7 @@
 ## 2. Creating a local repository and pushing it to GitHub
 
+[Home](README.md)
+
 Now that you know how to create a new repository and make changes to it, let's push it to GitHub. GitHub is a web-based platform that allows you to store and manage your code in the cloud. It also provides tools for collaborating with others on your projects.
 
 If you don't already have a GitHub account, you can create one at [https://github.com/signup](https://github.com/signup).
@@ -12,9 +14,9 @@ If you don't already have a GitHub account, you can create one at [https://githu
 
 - **git remote add:** Adds a new remote repository to your local repository. A remote repository is a version of your repository that is hosted on a server, such as GitHub. The first argument is the name of the remote (in this case, `origin`), and the second argument is the URL of the remote repository.
 
-4. Run `git push -u origin master` to push your local repository to GitHub.
+4. Run `git push -u origin main` to push your local repository to GitHub.
 
-- **git push:** Pushes your local repository to a remote repository. The `-u` flag sets the upstream branch for the current branch, so that in the future, you can use `git push` without any arguments to push your changes to the remote repository.
+- **git push:** Pushes your local repository to a remote repository. Initially, you have to specify the repository (`origin`) and the branch (`main`). The `-u` flag saves these arguments so that in the future you can use `git push` without any arguments to push your changes to the specified branch.
 
 Now if you go to your repository on GitHub (you may need to refresh the page), you should see the `hello.txt` file you created in your local repository.
 
@@ -29,3 +31,5 @@ Now that your repository is on GitHub, you can make changes to it from your loca
 5. Run `git push` to push the changes to GitHub.
 
 Now if you go to your repository on GitHub, you should see the changes you made to `hello.txt`.
+
+[Next: Creating a New Repository on GitHub and Cloning it to Your Local Machine](03_new_github_repository.md)

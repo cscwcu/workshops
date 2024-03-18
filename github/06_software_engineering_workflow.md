@@ -1,5 +1,7 @@
 ## 6. A software engineering workflow using GitHub
 
+[Home](README.md)
+
 In this section, we will simulate a typical software engineering workflow using GitHub. This workflow will include creating a new branch, making changes to the branch, creating a pull request, and merging the changes into the main branch.
 
 To get started, be sure you've forked and cloned the `github-workshop` repository to your local machine. You can find it at [https://github.com/wcucs/github-workshop](https://github.com/wcucs/github-workshop). You will have to fork the repository first because you won't have permission to push changes to the original repository. Once you've done this, you can clone your fork to your local machine.
@@ -21,3 +23,5 @@ Now we can get started with the workflow. Your task is to fix a bug in the `heap
 5. **Review and merge**: At this stage, a PR manager will review the changes. If the changes are approved, you will be able to merge your changes into the main branch. Once the changes are merged, you can delete your branch if you'd like.
 
 Congratulations! You've completed a software engineering workflow using GitHub. This is a simplified version of what you might encounter in a professional setting, but it covers the basics of working with branches, pull requests, and merging changes. These are fundamental concepts that you will use in your day-to-day work as a student and as a software engineer.
+
+[Next: End](end.md)
