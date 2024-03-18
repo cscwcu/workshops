@@ -33,7 +33,13 @@ In this exercise, you will learn how to create a new branch in your repository a
    You can also combine these two commands into one by doing `git checkout -b new-branch`.
 
 2. Make some changes to the `README.md` file in your new branch. For example, add a new section to the file. Note that any changes you make while on the new branch will not affect the `main` branch.
-3. Add the changes to the staging area, commit the changes, and push the changes to GitHub.
+3. Add the changes to the staging area, commit the changes, and push the changes to GitHub. Since this is a new branch, you will need to set the upstream branch with the `-u` flag:
+
+   ```bash
+   git add README.md
+   git commit -m "Add new section to README.md"
+   git push -u origin new-branch
+   ```
 
 Congratulations! You've created a branch in your repository and made changes to it.
 
@@ -47,7 +53,7 @@ Next, you will learn how to create a pull request to merge your changes from the
 4. Review the changes you made in your new branch and create the pull request.
 5. Add a title and description for your pull request, and then click on the "Create pull request" button.
 
-Congratulations! You've created a pull request to merge your changes from the new branch into the `main` branch. Pull requests are allow you to review the changes made in the branch and discuss them with other contributors before merging them into the main codebase. The role of a _PR manager_ is to review and merge pull requests. In a professional setting, the PR manager is typically a senior developer or team lead. Here, you are your own PR manager.
+Congratulations! You've created a pull request to merge your changes from the new branch into the `main` branch. Pull requests allow you to review the changes made in the branch and discuss them with other contributors before merging them into the main codebase. The role of a **pull request manager**(PR manager) is to review and merge pull requests. In a professional setting, the PR manager is typically a senior developer or team lead. Here, you are your own PR manager.
 
 ### Exercise 5.3
 
@@ -65,6 +71,6 @@ Finally, you will learn how to merge your changes from the new branch into the `
    git pull origin main
    ```
 
-Congratulations! You've merged your changes from the new branch into the `main` branch. Merging is the process of combining the changes from one branch into another. When you merge a branch into another, the changes made in the branch are applied to the target branch.
+Congratulations! You've merged your changes from the new branch into the `main` branch. Merging is the process of combining the changes from one branch into another. When you merge a branch into another, the changes made in the new branch are applied to the target branch.
 
 [Next: A Software Engineering Workflow Using Github](06_software_engineering_workflow.md)
