@@ -10,10 +10,10 @@ To fork the repository, follow these steps:
 2. After forking, you will be redirected to your forked repository.
 3. Clone this repository to your local machine using the `git clone` command and the URL from your forked repository.
 
-Now we can get started with the workflow. Your task is to fix a bug in the `calculator.py` file and create a pull request to merge your changes into the `main` branch.
+Now we can get started with the workflow. Your task is to fix a bug in the `heapify.py` file and create a pull request to merge your changes into the `main` branch.
 
 1. **Create a new branch**: Before we start making changes to the code, we'll create a new branch to work on. This is a good practice because it allows us to work on new features or bug fixes without affecting the `main` branch. Create a new branch with your username as the name of the branch.
-2. **Make some changes**: Now that you're on your new branch, open the file `calculator.py`. This code is buggy. See if you can identify the problem and fix it.
+2. **Make some changes**: Now that you're on your new branch, open the file `heapify.py`. This code is buggy. See if you can identify the problem and fix it.
 3. **Add, commit, and push**: Once you've made your changes, add them to the staging area, commit them, and push them to GitHub. Be sure to make your commit message meaningful; it should describe the changes you made or the problem you fixed.
 4. **Create a pull request**: Go to your repository on GitHub and create a pull request to merge your changes from your new branch into the `main` branch. Be sure that you are attempting to merge from your forked repository into the original repository. You can do this by selecting the original repository (`wcucsc/github-workshop`) as the base repository and the `main` branch as the base branch. Be sure to also include a title and description for your pull request.
 5. **Review and merge**: At this stage, a PR manager will review the changes. If the changes are approved, you will be able to merge your changes into the main branch. Once the changes are merged, you can delete your branch if you'd like.
