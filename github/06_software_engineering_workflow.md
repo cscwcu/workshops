@@ -12,6 +12,8 @@ To fork the repository, follow these steps:
 
 Now we can get started with the workflow. Your task is to fix a bug in the `heapify.py` file and create a pull request to merge your changes into the `main` branch.
 
+**Hint**: There are three bugs in the `heapify.py` file. See if you can find and fix them all. Additionally, good practice is to commit your changes after fixing each bug.
+
 1. **Create a new branch**: Before we start making changes to the code, we'll create a new branch to work on. This is a good practice because it allows us to work on new features or bug fixes without affecting the `main` branch. Create a new branch with your username as the name of the branch.
 2. **Make some changes**: Now that you're on your new branch, open the file `heapify.py`. This code is buggy. See if you can identify the problem and fix it.
 3. **Add, commit, and push**: Once you've made your changes, add them to the staging area, commit them, and push them to GitHub. Be sure to make your commit message meaningful; it should describe the changes you made or the problem you fixed.
