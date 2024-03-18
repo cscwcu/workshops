@@ -2,7 +2,15 @@
 
 In this section, we will simulate a typical software engineering workflow using GitHub. This workflow will include creating a new branch, making changes to the branch, creating a pull request, and merging the changes into the main branch.
 
-To get started, be sure you've cloned the `github-workshop` repository to your local machine. You can find it at [https://github.com/wcucs/github-workshop](https://github.com/wcucs/github-workshop).
+To get started, be sure you've forked and cloned the `github-workshop` repository to your local machine. You can find it at [https://github.com/wcucs/github-workshop](https://github.com/wcucs/github-workshop). You will have to fork the repository first because you won't have permission to push changes to the original repository. Once you've done this, you can clone your fork to your local machine.
+
+To fork the repository, follow these steps:
+
+1. Go to the repository's page on GitHub. Click on the "Fork" button in the top-right corner of the page. This will create a copy of the repository under your GitHub account.
+2. After forking, you will be redirected to your forked repository.
+3. Clone this repository to your local machine using the `git clone` command and the URL from your forked repository.
+
+Now we can get started with the workflow. Your task is to fix a bug in the `calculator.py` file and create a pull request to merge your changes into the `main` branch.
 
 1. **Create a new branch**: Before we start making changes to the code, we'll create a new branch to work on. This is a good practice because it allows us to work on new features or bug fixes without affecting the `main` branch. Create a new branch with your username as the name of the branch.
 2. **Make some changes**: Now that you're on your new branch, open the file `calculator.py`. This code is buggy. See if you can identify the problem and fix it.
