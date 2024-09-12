@@ -63,4 +63,4 @@ The commands you will use the most in your git workflow are `git status`, `git a
 
 Congratulations! You've created a new repository and made some changes to it. You can use `git log` to see the history of your repository, and `git diff` to see the changes you've made to your files.
 
-[Next: Creating a Local Repository and Pushing it to GitHub](02_creating_a_local_and_pushing.md)
+[Next: Creating a local repository and pushing it to GitHub](02_creating_a_local_and_pushing.md)

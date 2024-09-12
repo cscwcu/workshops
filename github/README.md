@@ -2,7 +2,7 @@
 
 #### Author(s): CS Club @ WCU
 
-Last revised: 02-23-2024
+Last revised: 09-12-2024
 
 ## Description
 
@@ -32,4 +32,4 @@ A version control system (VCS) is a tool that helps you manage changes to your c
 
 Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It enables multiple developers to work together on the same project without interfering with each other's work. This workshop will introduce you to the basics of Git, GitHub, and how to use them to manage your code. We will also cover GitHub and some best practices for collaborating with others on a project.
 
-[Next: Installing and Using Git](01_installing_and_using_git.md)
+[Next: Installing and using Git](01_installing_and_using_git.md)

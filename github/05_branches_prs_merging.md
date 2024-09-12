@@ -2,6 +2,8 @@
 
 [Home](README.md)
 
+[Back: Collaborating with others on GitHub](04_collaborating_with_others.md)
+
 Git is a powerful tool for making updates to your code efficiently. It allows you to work on different features or bug fixes in parallel, and then merge them together when they are ready. This section will cover the basics of branches, pull requests, and merging in Git.
 
 Some definitions:
@@ -73,4 +75,4 @@ Finally, you will learn how to merge your changes from the new branch into the `
 
 Congratulations! You've merged your changes from the new branch into the `main` branch. Merging is the process of combining the changes from one branch into another. When you merge a branch into another, the changes made in the new branch are applied to the target branch.
 
-[Next: A Software Engineering Workflow Using Github](06_software_engineering_workflow.md)
+[Next: A software engineering workflow using Github](06_software_engineering_workflow.md)

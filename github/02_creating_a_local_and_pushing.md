@@ -2,6 +2,8 @@
 
 [Home](README.md)
 
+[Back: Installing and using git on the command line](01_installing_and_using_git.md)
+
 Now that you know how to create a new repository and make changes to it, let's push it to GitHub. GitHub is a web-based platform that allows you to store and manage your code in the cloud. It also provides tools for collaborating with others on your projects.
 
 If you don't already have a GitHub account, you can create one at [https://github.com/signup](https://github.com/signup).
@@ -114,4 +116,4 @@ Now that your repository is on GitHub, you can make changes to it from your loca
 
 Now if you go to your repository on GitHub, you should see the changes you made to `hello.txt`.
 
-[Next: Creating a New Repository on GitHub and Cloning it to Your Local Machine](03_new_github_repository.md)
+[Next: Creating a new repository on GitHub and cloning it to your local machine](03_new_github_repository.md)

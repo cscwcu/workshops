@@ -2,6 +2,8 @@
 
 [Home](README.md)
 
+[Back: Creating a new repository on GitHub and cloning it to your local machine](03_new_github_repository.md)
+
 One of the most powerful features of GitHub is its ability to facilitate collaboration between developers. GitHub provides tools for managing issues, reviewing code, and merging changes from multiple contributors. This section will cover some of the basics of collaborating with others on GitHub.
 
 ### Exercise 4.1
