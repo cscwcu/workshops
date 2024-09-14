@@ -19,6 +19,6 @@ This exercise will guide you through creating a new repository on GitHub and clo
 6. Navigate into the `my-github-repo` directory. Notice that there is a `README.md` file in the directory. This is the file that was created when you initialized the repository on GitHub.
 7. Try making some changes to the `README.md` file, adding the changes to the staging area, committing the changes, and pushing them to GitHub.
 
-Congratulations! You've created a new repository on GitHub and cloned it to your local machine.
+Congratualtions! You've created a new repository on GitHub and cloned it to your local machine.
 
 [Next: Collaborating with others on GitHub](04_collaborating_with_others.md)
