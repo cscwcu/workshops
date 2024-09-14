@@ -1,4 +1,4 @@
-## 2. Installing Seaborn and Plotting Data
+## 2. Seaborn
 
 [Home](README.md)
 
@@ -45,16 +45,7 @@ Seaborn comes with several built-in datasets, making it easy to experiment with.
    print(tips.head())
    ```
 
-   You should see output like this:
-
-   ```
-      total_bill   tip    sex smoker  day    time  size
-   0       16.99  1.01  Female     No  Sun  Dinner     2
-   1       10.34  1.66    Male     No  Sun  Dinner     3
-   2       21.01  3.50    Male     No  Sun  Dinner     3
-   3       23.68  3.31    Male     No  Sun  Dinner     2
-   4       24.59  3.61  Female     No  Sun  Dinner     4
-   ```
+   What output do you see?
 
 3. **Plotting the data**:
 
@@ -127,6 +118,6 @@ Heatmaps are a great way to visualize the correlation between different variable
 
 ---
 
-In this section, we installed Seaborn and explored its basic functionalities using the built-in **'tips'** dataset. You now have the tools to create various plots, including scatter plots, bar plots, box plots, and heatmaps. Seaborn’s ease of use and flexibility make it a great choice for quick and informative visualizations.
+In this section, we installed Seaborn and explored its basic functionalities using the built-in **'tips'** dataset. You now have the tools to create various plots, including scatter plots, bar plots, box plots, and heatmaps. Seaborn's ease of use and flexibility make it a great choice for quick and informative visualizations.
 
-[Next: Advanced Customization in Seaborn](03_seaborn_advanced_customization.md)
+[Next: Scikit-learn](03_scikit-learn.md)

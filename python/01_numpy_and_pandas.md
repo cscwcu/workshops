@@ -23,7 +23,7 @@ Then, after we've installed the library, just in any python file, we can say:
 
 **Note:** It's extremely common practice to reference to NumPy as np, and we recommend it as well.
 
-### 2. Common uses and examples of NumPy
+### Common uses and examples of NumPy
 
 Here are some of its most common uses:
 
@@ -144,8 +144,127 @@ Here are some of its most common uses:
    print(f'Time taken: {end_time - start_time} seconds')
    ```
 
-## Pandas
+---
+
+## 2. Pandas
 
 ### What is Pandas?
 
 Panda bears are usually characterised by their white coat with black patches around the eyes, ears, legs and shoulders -- oh, sorry. Wrong pandas...
+
+Pandas is a widely used, fast, flexible, and open source data analysis and manipulation tool built in python. It can be used widely for data wrangling and handling datasets, and is commonly paired with NumPy (see we told you) in order to create the most efficient dataframe library in python.01_numpy_and_pandas
+
+### Let's Get Started
+
+Very similar to NumPy, we can simply use pip or pip3 to install:
+
+`pip install pandas` or `pip3 install pandas`
+
+Now that we've installed the library, we just need to say in a python file:
+
+`import pandas as pd`
+
+**Note:** Once again, pd is an extremely common naming convention, and we once again recommend it.
+
+### Common use cases and examples of Pandas
+
+Here are some common use cases along with examples:
+
+1. **Data Cleaning and Preparation**
+
+   - **Handling Missing Data:** Handle missing data by filling it in or dropping rows/columns.
+
+     ```python
+     import pandas as pd
+
+     df = pd.DataFrame({'A': [1, 2, None], 'B': [4, None, 6]})
+     df.fillna(df.mean(), inplace=True)  # Filling missing values with column means
+     ```
+
+   - **Removing Duplicates:** Identify and remove duplicate rows.
+     ```python
+     df = pd.DataFrame({'A': [1, 2, 2, 3], 'B': [4, 5, 5, 6]})
+     df.drop_duplicates(inplace=True)
+     ```
+
+2. **Data Transformation**
+
+   - **Applying Functions:** Apply functions to columns or rows using `.apply()`.
+
+     ```python
+     df = pd.DataFrame({'A': [1, 2, 3]})
+     df['B'] = df['A'].apply(lambda x: x ** 2)  # Applying a function to square values
+     ```
+
+   - **Grouping Data:** Aggregate data by group.
+     ```python
+     df = pd.DataFrame({'Category': ['A', 'B', 'A', 'B'], 'Value': [10, 20, 30, 40]})
+     grouped = df.groupby('Category').sum()
+     ```
+
+3. **Data Exploration and Analysis**
+
+   - **Descriptive Statistics:** Get summary statistics of your data.
+
+     ```python
+     df = pd.DataFrame({'A': [1, 2, 3, 4, 5]})
+     stats = df.describe()  # Returns count, mean, std, min, 25%, 50%, 75%, max
+     ```
+
+   - **Correlation Analysis:** Compute correlation matrices to understand relationships between variables.
+     ```python
+     df = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [2, 4, 6, 8]})
+     correlation = df.corr()  # Compute correlation matrix
+     ```
+
+4. **Data Visualization**
+
+   - **Plotting:** Use pandas to create basic plots.
+     ```python
+     df = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [2, 4, 6, 8]})
+     df.plot(kind='scatter', x='A', y='B')  # Scatter plot
+     ```
+
+5. **Time Series Analysis**
+
+   - **Date and Time Handling:** Work with date/time data and perform resampling or shifting.
+     ```python
+     dates = pd.date_range('2024-01-01', periods=5, freq='D')
+     df = pd.DataFrame({'Date': dates, 'Value': [1, 2, 3, 4, 5]})
+     df.set_index('Date', inplace=True)
+     df_resampled = df.resample('W').sum()  # Resample by week and sum values
+     ```
+
+6. **Merging and Joining Data**
+
+   - **Combining Datasets:** Merge or join different DataFrames.
+     ```python
+     df1 = pd.DataFrame({'ID': [1, 2, 3], 'Value1': ['A', 'B', 'C']})
+     df2 = pd.DataFrame({'ID': [1, 2, 4], 'Value2': ['D', 'E', 'F']})
+     merged = pd.merge(df1, df2, on='ID', how='inner')  # Inner join on 'ID'
+     ```
+
+7. **Reading and Writing Data**
+
+   - **CSV Files:** Read and write data from/to CSV files.
+
+     ```python
+     df = pd.read_csv('data.csv')  # Reading a CSV file
+     df.to_csv('output.csv', index=False)  # Writing to a CSV file
+     ```
+
+   - **Excel Files:** Read from and write to Excel files.
+     ```python
+     df = pd.read_excel('data.xlsx', sheet_name='Sheet1')  # Reading from Excel
+     df.to_excel('output.xlsx', index=False)  # Writing to Excel
+     ```
+
+8. **Data Aggregation and Pivoting**
+
+   - **Pivot Tables:** Create pivot tables to summarize data.
+     ```python
+     df = pd.DataFrame({'A': ['foo', 'foo', 'bar', 'bar'], 'B': ['one', 'two', 'one', 'two'], 'C': [10, 20, 30, 40]})
+     pivot_table = df.pivot_table(values='C', index='A', columns='B', aggfunc='sum')
+     ```
+
+These use cases cover a broad range of tasks in data science and analysis, making pandas a versatile tool for working with data in Python.
