@@ -2,7 +2,7 @@
 
 [Home](README.md)
 
-[Back: Working with Hugging Face Transformers](05_hugging_face_transformers.md)
+[Back: Hugging Face Transformers](05_hugging_face_transformers.md)
 
 In this section, we will explore a variety of open-source models that you can use for machine learning and natural language processing (NLP). These models are free to use and can be easily integrated into your projects. We will cover models in areas such as large language models (LLMs), computer vision, and natural language processing, with practical examples of how to load and use them.
 
@@ -201,4 +201,4 @@ Let’s briefly explore how you might fine-tune a BERT model for text classifica
 
 In this section, we explored various open-source models available for machine learning and NLP tasks, ranging from GPT-Neo for text generation to ResNet for image classification. These models can be easily accessed through platforms like Hugging Face, PyTorch Hub, and TensorFlow Hub, making them valuable resources for quick project development.
 
-[Next: Final Project - Building an End-to-End Application](07_final_project.md)
+[Next: Jupyter Notebooks](07_jupyter_notebooks.md)

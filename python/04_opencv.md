@@ -1,4 +1,4 @@
-## 4. Installing OpenCV and Basic Image Processing
+## 4. OpenCV
 
 [Home](README.md)
 

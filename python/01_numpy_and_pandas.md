@@ -268,3 +268,5 @@ Here are some common use cases along with examples:
      ```
 
 These use cases cover a broad range of tasks in data science and analysis, making pandas a versatile tool for working with data in Python.
+
+[Next: Seaborn](02_seaborn.md)

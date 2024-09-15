@@ -1,4 +1,4 @@
-## 5. Installing Hugging Face Transformers and Using Pretrained Language Models
+## 5. Hugging Face Transformers
 
 [Home](README.md)
 
@@ -177,4 +177,4 @@ Hugging Face also makes it easy to build a question-answering system. For this e
 
 In this section, we installed the Hugging Face `transformers` library and explored various NLP tasks like text generation, sentiment analysis, named entity recognition, translation, and more. Hugging Face provides a simple interface for working with pre-trained models, making it an excellent tool for NLP tasks and hackathon projects.
 
-[Next: Advanced NLP Techniques with Hugging Face](06_advanced_hugging_face.md)
+[Next: Open Source Models](06_open_source_models.md)
