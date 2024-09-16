@@ -109,7 +109,12 @@ Heatmaps are a great way to visualize the correlation between different variable
 1. Use the following code to generate the heatmap:
 
    ```python
-   sns.heatmap(tips.corr(), annot=True, cmap="coolwarm")
+   # Select only the numeric columns for correlation calculation
+   numeric_columns = tips.select_dtypes(include=['float64', 'int64'])
+
+   # Now create the heatmap with the correlation matrix of the numeric columns
+   sns.heatmap(numeric_columns.corr(), annot=True, cmap="coolwarm")
+
    plt.title("Correlation Heatmap of Tips Dataset")
    plt.show()
    ```
@@ -119,5 +124,7 @@ Heatmaps are a great way to visualize the correlation between different variable
 ---
 
 In this section, we installed Seaborn and explored its basic functionalities using the built-in **'tips'** dataset. You now have the tools to create various plots, including scatter plots, bar plots, box plots, and heatmaps. Seaborn's ease of use and flexibility make it a great choice for quick and informative visualizations.
+
+Next, we're gonna get into the fun stuff: machine learning with Scikit-learn!
 
 [Next: Scikit-learn](03_scikit-learn.md)
