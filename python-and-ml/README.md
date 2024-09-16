@@ -1,8 +1,8 @@
 # Python and Machine Learning Workshop
 
-#### Author(s): CS Club @ WCU
+#### Author(s): Computer Science Club at Western Carolina University
 
-Last revised: 09-15-2024
+Last revised: 09-16-2024
 
 ## Description
 
@@ -34,7 +34,7 @@ To create a virtual environment, you can use the `venv` module that comes with P
 
 ```bash
 # Create a new virtual environment
-python -m venv myenv
+python -m venv myenv ## Side note: if any of the python commands don't work, try using `python3` instead of `python`
 
 # Activate the virtual environment
 source myenv/bin/activate

@@ -4,13 +4,19 @@
 
 [Back: OpenCV](04_opencv.md)
 
-In this section, we will learn how to install the Hugging Face `transformers` library and use it to interact with state-of-the-art pre-trained language models. These models can be used for tasks such as text generation, sentiment analysis, and translation.
+In this section, we will learn about the Hugging Face `transformers` library and use it to interact with state-of-the-art pre-trained language models. These models can be used for tasks such as text generation, sentiment analysis, and translation.
 
 ### Before We Continue
 
-Before using Hugging Face Transformers, you need Python installed on your machine along with `pip`, which we will use to install the `transformers` library.
+As of September 16, 2024, Hugging Face Transformers uses NumPy 1.x. If you were following along with this workshop, you've probably installed the latest version of NumPy. If you encounter any issues with the Hugging Face Transformers installation, you may need to downgrade NumPy to version 1.x:
 
-#### Step 1: Installing Hugging Face Transformers
+```bash
+pip install 'numpy<2'
+```
+
+**Note**: This is a great example of when using a virtual environment can be helpful. If you have other projects that require the latest version of NumPy, you can [create a virtual environment](README.md?plain=1#L29) for this workshop and install the required version of NumPy.
+
+### Installing Hugging Face Transformers
 
 1. **Open your terminal** (or command prompt) and run the following command to install the Hugging Face `transformers` library:
 
@@ -33,7 +39,7 @@ Before using Hugging Face Transformers, you need Python installed on your machin
 
    If there are no errors, the `transformers` library is installed correctly.
 
-#### Step 2: Using a Pretrained Model for Text Generation
+### Using a Pretrained Model for Text Generation
 
 One of the powerful features of Hugging Face is that it allows easy access to pre-trained models like GPT, BERT, and others. Let's start by loading a pre-trained model for text generation.
 
@@ -61,7 +67,7 @@ One of the powerful features of Hugging Face is that it allows easy access to pr
 
    The model will generate text based on the prompt. You can try different prompts and see how the model responds!
 
-#### Step 3: Using a Pretrained Model for Sentiment Analysis
+### Using a Pretrained Model for Sentiment Analysis
 
 Now that we’ve explored text generation, let’s use another powerful feature of Hugging Face: **sentiment analysis**. This task classifies text as positive, negative, or neutral.
 
@@ -82,7 +88,7 @@ Now that we’ve explored text generation, let’s use another powerful feature 
 
    Try inputting different sentences and observe how the model’s predictions change based on the text.
 
-#### Step 4: Working with Named Entity Recognition (NER)
+### Working with Named Entity Recognition (NER)
 
 Named Entity Recognition (NER) is a common NLP task where we identify entities like people, organizations, and locations within a text. Let's explore this using Hugging Face.
 
@@ -102,7 +108,7 @@ Named Entity Recognition (NER) is a common NLP task where we identify entities l
 
    The model will identify entities such as organizations and locations in the text.
 
-#### Step 5: Exploring Other Tasks with Hugging Face
+### Exploring Other Tasks with Hugging Face
 
 Hugging Face `transformers` supports many other NLP tasks, such as translation, question answering, and summarization. Here's a brief example of how to use a model for **translation**:
 
@@ -119,13 +125,11 @@ Hugging Face `transformers` supports many other NLP tasks, such as translation, 
 
    The model will translate the input sentence into French.
 
-#### Step 6: Fine-Tuning Pretrained Models
+### Fine-Tuning Pretrained Models
 
 While Hugging Face provides access to pre-trained models, you can also fine-tune these models on your own datasets. However, for this workshop, we will focus on using the pre-trained models directly.
 
----
-
-### Exercise 5.1: Text Summarization
+### Text Summarization
 
 In this exercise, we will use Hugging Face to summarize long pieces of text.
 
@@ -150,9 +154,7 @@ In this exercise, we will use Hugging Face to summarize long pieces of text.
 
 2. **Experiment with different texts** to see how well the model summarizes information.
 
----
-
-### Exercise 5.2: Creating a Question-Answering System
+### Creating a Question-Answering System
 
 Hugging Face also makes it easy to build a question-answering system. For this exercise, we will use a pre-trained model to answer questions based on a given passage.
 
@@ -173,8 +175,89 @@ Hugging Face also makes it easy to build a question-answering system. For this e
 
 2. **Try asking different questions** based on the same or different contexts.
 
----
+### Open source models
 
-In this section, we installed the Hugging Face `transformers` library and explored various NLP tasks like text generation, sentiment analysis, named entity recognition, translation, and more. Hugging Face provides a simple interface for working with pre-trained models, making it an excellent tool for NLP tasks and hackathon projects.
+Here is a list of some popular open-source models you can use with transformers, along with a brief explanation of what they can be used for:
 
-[Next: Open Source Models](06_open_source_models.md)
+#### 1. **GPT-Neo (EleutherAI)**
+
+- **Task**: Text Generation
+- **Use Case**: GPT-Neo is an open-source alternative to OpenAI's GPT-3. It is well-suited for tasks that involve generating human-like text from a given prompt.
+- **Example**: Create AI-generated text for creative writing or generate dialogues for a chatbot.
+
+```python
+from transformers import pipeline
+generator = pipeline("text-generation", model="EleutherAI/gpt-neo-1.3B")
+prompt = "The future of technology is"
+generated_text = generator(prompt, max_length=50)
+print(generated_text)
+```
+
+#### 2. **BERT (Google)**
+
+- **Task**: Text Classification, Named Entity Recognition (NER), Question-Answering
+- **Use Case**: BERT is ideal for understanding the context of text. It can be used for sentiment analysis, recognizing entities in text (like names, places), and answering questions based on a passage.
+- **Example**: Use BERT for customer feedback sentiment analysis.
+
+```python
+sentiment_analyzer = pipeline("sentiment-analysis")
+result = sentiment_analyzer("I love working with data!")
+print(result)
+```
+
+#### 3. **BLOOM (BigScience)**
+
+- **Task**: Multilingual Text Generation
+- **Use Case**: BLOOM is a powerful model capable of generating text in multiple languages. It is useful for creating multilingual content, chatbots, or summarizing texts in different languages.
+- **Example**: Generate French or Spanish text from an English prompt.
+
+```python
+from transformers import pipeline
+bloom_generator = pipeline("text-generation", model="bigscience/bloom-560m")
+prompt = "La technologie de l'intelligence artificielle"
+generated_text = bloom_generator(prompt, max_length=50)
+print(generated_text)
+```
+
+#### 4. **DistilBERT (Hugging Face)**
+
+- **Task**: Text Classification, Question Answering
+- **Use Case**: DistilBERT is a smaller, faster version of BERT that is optimized for performance. It is perfect for tasks like text classification and question-answering where speed is important.
+- **Example**: Build a lightweight FAQ answering system for customer support.
+
+```python
+question_answerer = pipeline("question-answering")
+context = "Artificial Intelligence is revolutionizing many industries."
+question = "What is AI revolutionizing?"
+answer = question_answerer(question=question, context=context)
+print(answer)
+```
+
+#### 5. **ResNet (PyTorch)**
+
+- **Task**: Image Classification
+- **Use Case**: ResNet is a popular model for classifying images into different categories. It is commonly used in applications such as facial recognition or identifying objects in photographs.
+- **Example**: Build an image classification tool that identifies everyday objects in pictures.
+
+#### 6. **YOLOv5 (Ultralytics)**
+
+- **Task**: Object Detection
+- **Use Case**: YOLOv5 is known for fast and accurate real-time object detection. It can detect multiple objects in images or videos, making it useful for applications like security systems or automated quality control.
+- **Example**: Detect objects like cars, people, or animals in real-time from a video feed.
+
+```python
+from ultralytics import YOLO
+model = YOLO('yolov5s')
+results = model("sample_image.jpg")
+results.show()
+```
+
+#### 7. **CLIP (OpenAI)**
+
+- **Task**: Image-Text Matching
+- **Use Case**: CLIP is a model that can understand images and their associated text. It's great for building systems that link images with descriptions, such as search engines or automated captioning systems.
+- **Example**: Search for images using text descriptions.
+
+In this section, we installed the Hugging Face `transformers` library and explored various NLP tasks like text generation, sentiment analysis, named entity recognition, translation, and more. Hugging Face provides a simple interface for working with pre-trained models, making it an excellent tool for NLP tasks and any machine learning project.
+
+[Next: Jupyter Notebooks](06_jupyter_notebooks.md)

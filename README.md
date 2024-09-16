@@ -1,9 +1,9 @@
 # Workshops
 
-This is a repository used to track/store workshops the WCU CS Club has either done
-or is planning to do sometime in the future. This includes games we've played, teaching
-new topics or ideas to students, and many other resources the club has used.
+This is a repository used to track/store workshops the CS Club @ WCU has either hosted
+or is planning to host sometime in the future. Feel free to bookmark this page and reference the content of these workshops as needed!
 
 ## Table of Contents
 
 1. [Git and Github](github/README.md)
+2. [Python and Machine Learning](python-and-ml/README.md)

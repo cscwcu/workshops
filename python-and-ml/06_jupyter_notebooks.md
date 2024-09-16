@@ -2,7 +2,7 @@
 
 [Home](README.md)
 
-[Back: Open Source Models](06_open_source_models.md)
+[Back: Hugging Face Transformers](05_hugging_face_transformers.md)
 
 In this section, we'll explore Jupyter Notebooks, an interactive environment that makes it easy to write and run Python code. We will cover the basics of installing Jupyter, creating a notebook, and using it to write and execute code.
 
