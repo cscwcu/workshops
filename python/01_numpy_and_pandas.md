@@ -1,15 +1,18 @@
-## 1. NumPy
+## 1.1 NumPy
 
 [Home](README.md)
 
 ### What is NumPy?
 
-NumPy is a fundamental package in Python and is widely used across various fields, including data scientists and software engineers in order to
-perform any kind of scientific computing. This library provides a basis for many of these
-operations, such as multidimensional arrays, matrices, and many basic mathematical
-operations to save the programmer time from computing them instead.
+NumPy is a fundamental package in Python and is widely used across various fields, including data science and software engineering in order to perform many kinds of scientific computing. This library provides a basis for many of these operations, such as multidimensional arrays, matrices, and many basic mathematical operations to save the programmer time from computing them instead. You can learn more about NumPy [here.](https://numpy.org/)
 
-[Click this link to explore more on their website.](https://numpy.org/)
+This part of the workshop will cover the basics of NumPy, including how to install it, create arrays, and perform common operations.
+
+### Following along
+
+You can follow along with this workshop by creating a new Python file and typing the code snippets provided, then running `python3 filename.py` in your terminal. You could also run it directly from the terminal by typing `python3` to enter the Python interpreter, and then typing the code line by line. We recommend this method to get started quickly!
+
+You can also use an online Python interpreter like [Repl.it](https://repl.it/) to run the code.
 
 ### Let's Get Started!
 
@@ -74,11 +77,13 @@ Here are some of its most common uses:
 
    ```python
    # Create a NumPy array
-    data = np.array([1, 2, 3, 4, 5])
+   data = np.array([1, 2, 3, 4, 5])
 
-    # Convert to a Pandas DataFrame
-    df = pd.DataFrame(data, columns=['Values'])
-    print(df)
+   import pandas as pd ## We'll cover this in the next section!
+
+   # Convert to a Pandas DataFrame
+   df = pd.DataFrame(data, columns=['Values'])
+   print(df)
    ```
 
 4. **Scientific Computing**:
@@ -88,14 +93,14 @@ Here are some of its most common uses:
    - Example:
 
    ```python
-    # Generate data for a simple simulation
-    x = np.linspace(0, 10, 100)
-    y = np.sin(x)
+   # Generate data for a simple simulation
+   x = np.linspace(0, 10, 100)
+   y = np.sin(x)
    ```
 
 5. **Signal and Image Processing**:
 
-   - NumPy is employed in signal processing and image manipulation, where array-based operations are crucial for filtering, transformation, and analysis.
+   - NumPy is employed in signal processing and image manipulation, where array-based operations are crucial for filtering, transformation, and analysis. We'll see this an application of this in a later section.
 
 6. **Statistical Analysis**:
 
@@ -105,18 +110,18 @@ Here are some of its most common uses:
 
    ```python
    # Generate some data
-    data = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+   data = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
-    # Compute statistics
-    mean = np.mean(data)
-    median = np.median(data)
-    variance = np.var(data)
-    std_dev = np.std(data)
+   # Compute statistics
+   mean = np.mean(data)
+   median = np.median(data)
+   variance = np.var(data)
+   std_dev = np.std(data)
 
-    print(f'Mean: {mean}')  # Output: Mean: 5.5
-    print(f'Median: {median}')  # Output: Median: 5.5
-    print(f'Variance: {variance}')  # Output: Variance: 8.25
-    print(f'Standard Deviation: {std_dev}')  # Output: Standard Deviation: 2.8722813232690143
+   print(f'Mean: {mean}')  # Output: Mean: 5.5
+   print(f'Median: {median}')  # Output: Median: 5.5
+   print(f'Variance: {variance}')  # Output: Variance: 8.25
+   print(f'Standard Deviation: {std_dev}')  # Output: Standard Deviation: 2.8722813232690143
    ```
 
 7. **Integration with Other Libraries**:
@@ -135,6 +140,9 @@ Here are some of its most common uses:
    # Create a large NumPy array
    size = 10**6
    array = np.random.random(size)
+   print(array) #look at how big this is!
+
+   import time
 
    # Time a NumPy operation
    start_time = time.time()
@@ -144,15 +152,21 @@ Here are some of its most common uses:
    print(f'Time taken: {end_time - start_time} seconds')
    ```
 
+NumPy is a powerful library that provides a wide range of functions for numerical computing. It is a fundamental tool for data analysis, scientific computing, and machine learning in Python.
+
+**Side note:** Throughout this workshop we imported various libraries as we needed them for the examples. Do not do this in your code! It is best practice to import all libraries at the beginning of your script.
+
 ---
 
-## 2. Pandas
+## 1.2. Pandas
 
 ### What is Pandas?
 
-Panda bears are usually characterised by their white coat with black patches around the eyes, ears, legs and shoulders -- oh, sorry. Wrong pandas...
+Pandas are mammals of the family Ursidae, usually characterised by their white coat with black patches around the eyes, ears, legs and shoulders-- oh, sorry. Wrong pandas...
 
-Pandas is a widely used, fast, flexible, and open source data analysis and manipulation tool built in python. It can be used widely for data wrangling and handling datasets, and is commonly paired with NumPy (see we told you) in order to create the most efficient dataframe library in python.01_numpy_and_pandas
+Pandas is a widely used, fast, flexible, and open source data analysis and manipulation tool built in Python. It can be used widely for data wrangling and handling datasets, and is commonly paired with NumPy (see we told you) in order to create the most efficient dataframe library in Python. You can learn more about Pandas [here.](https://pandas.pydata.org/)
+
+This part of the workshop will cover the basics of Pandas, including how to install it, load datasets, and perform common operations.
 
 ### Let's Get Started
 
@@ -164,109 +178,167 @@ Now that we've installed the library, we just need to say in a python file:
 
 `import pandas as pd`
 
-**Note:** Once again, pd is an extremely common naming convention, and we once again recommend it.
+**Note:** Once again, pd is an extremely common naming convention, and we recommend using it.
 
-### Common use cases and examples of Pandas
+For this part of the workshop, we'll also need to install the `seaborn` library, which is a data visualization library based on Matplotlib. You can install it using:
 
-Here are some common use cases along with examples:
+`pip install seaborn` or `pip3 install seaborn`
 
-1. **Data Cleaning and Preparation**
+Then you can import it using:
 
-   - **Handling Missing Data:** Handle missing data by filling it in or dropping rows/columns.
+`import seaborn as sns`
 
-     ```python
-     import pandas as pd
+Pandas is particularly useful for working with tabular data. We’ll use a simple dataset to explore Pandas’ functionality. For this example, we’ll use the **'tips'** dataset, which contains information about restaurant tips.
 
-     df = pd.DataFrame({'A': [1, 2, None], 'B': [4, None, 6]})
-     df.fillna(df.mean(), inplace=True)  # Filling missing values with column means
-     ```
+### Loading a dataset into a DataFrame
 
-   - **Removing Duplicates:** Identify and remove duplicate rows.
-     ```python
-     df = pd.DataFrame({'A': [1, 2, 2, 3], 'B': [4, 5, 5, 6]})
-     df.drop_duplicates(inplace=True)
-     ```
+Pandas can load datasets from various sources such as CSV files, Excel files, or directly from URLs. For simplicity, let’s use the `seaborn` library to load the **'tips'** dataset.
 
-2. **Data Transformation**
+```python
+import seaborn as sns
+import pandas as pd
 
-   - **Applying Functions:** Apply functions to columns or rows using `.apply()`.
+# Load the 'tips' dataset using Seaborn and convert it to a Pandas DataFrame
+tips = sns.load_dataset('tips')
 
-     ```python
-     df = pd.DataFrame({'A': [1, 2, 3]})
-     df['B'] = df['A'].apply(lambda x: x ** 2)  # Applying a function to square values
-     ```
+# Display the first few rows of the dataset
+print(tips.head())
+```
 
-   - **Grouping Data:** Aggregate data by group.
-     ```python
-     df = pd.DataFrame({'Category': ['A', 'B', 'A', 'B'], 'Value': [10, 20, 30, 40]})
-     grouped = df.groupby('Category').sum()
-     ```
+We just created a DataFrame called `tips` from the 'tips' dataset. The `head()` function displays the first few rows of the DataFrame.
 
-3. **Data Exploration and Analysis**
+- **DataFrame**: A two-dimensional labeled data structure with columns of potentially different types. It is similar to a spreadsheet or SQL table, but with more powerful features. Most of the data you'll work with using Pandas will be in the form of DataFrames.
 
-   - **Descriptive Statistics:** Get summary statistics of your data.
+What does the output look like?
 
-     ```python
-     df = pd.DataFrame({'A': [1, 2, 3, 4, 5]})
-     stats = df.describe()  # Returns count, mean, std, min, 25%, 50%, 75%, max
-     ```
+You can inspect the structure of the DataFrame by checking its shape and columns:
 
-   - **Correlation Analysis:** Compute correlation matrices to understand relationships between variables.
-     ```python
-     df = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [2, 4, 6, 8]})
-     correlation = df.corr()  # Compute correlation matrix
-     ```
+```python
+# Display the shape of the DataFrame
+print(tips.shape) # The .shape attribute returns a tuple representing the dimensions of the DataFrame, giving you the number of rows and columns.
 
-4. **Data Visualization**
+# Display the column names
+print(tips.columns)
+```
 
-   - **Plotting:** Use pandas to create basic plots.
-     ```python
-     df = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [2, 4, 6, 8]})
-     df.plot(kind='scatter', x='A', y='B')  # Scatter plot
-     ```
+### Selecting Data from a DataFrame
 
-5. **Time Series Analysis**
+Pandas makes it easy to select specific columns or rows of a DataFrame.
 
-   - **Date and Time Handling:** Work with date/time data and perform resampling or shifting.
-     ```python
-     dates = pd.date_range('2024-01-01', periods=5, freq='D')
-     df = pd.DataFrame({'Date': dates, 'Value': [1, 2, 3, 4, 5]})
-     df.set_index('Date', inplace=True)
-     df_resampled = df.resample('W').sum()  # Resample by week and sum values
-     ```
+1. **Selecting a single column**:
 
-6. **Merging and Joining Data**
+   ```python
+   # Select the 'total_bill' column
+   total_bill = tips['total_bill']
+   print(total_bill.head())
+   ```
 
-   - **Combining Datasets:** Merge or join different DataFrames.
-     ```python
-     df1 = pd.DataFrame({'ID': [1, 2, 3], 'Value1': ['A', 'B', 'C']})
-     df2 = pd.DataFrame({'ID': [1, 2, 4], 'Value2': ['D', 'E', 'F']})
-     merged = pd.merge(df1, df2, on='ID', how='inner')  # Inner join on 'ID'
-     ```
+2. **Selecting multiple columns**:
 
-7. **Reading and Writing Data**
+   ```python
+   # Select 'total_bill' and 'tip' columns
+   bills_and_tips = tips[['total_bill', 'tip']]
+   print(bills_and_tips.head())
+   ```
 
-   - **CSV Files:** Read and write data from/to CSV files.
+3. **Selecting rows based on a condition**:
 
-     ```python
-     df = pd.read_csv('data.csv')  # Reading a CSV file
-     df.to_csv('output.csv', index=False)  # Writing to a CSV file
-     ```
+   Suppose you want to select all rows where the customer is a smoker:
 
-   - **Excel Files:** Read from and write to Excel files.
-     ```python
-     df = pd.read_excel('data.xlsx', sheet_name='Sheet1')  # Reading from Excel
-     df.to_excel('output.xlsx', index=False)  # Writing to Excel
-     ```
+   ```python
+   smokers = tips[tips['smoker'] == 'Yes']
+   print(smokers.head())
+   ```
 
-8. **Data Aggregation and Pivoting**
+### Basic Data Analysis with Pandas
 
-   - **Pivot Tables:** Create pivot tables to summarize data.
-     ```python
-     df = pd.DataFrame({'A': ['foo', 'foo', 'bar', 'bar'], 'B': ['one', 'two', 'one', 'two'], 'C': [10, 20, 30, 40]})
-     pivot_table = df.pivot_table(values='C', index='A', columns='B', aggfunc='sum')
-     ```
+Now that you’ve learned how to select data, let’s perform some basic analysis to understand the dataset better.
 
-These use cases cover a broad range of tasks in data science and analysis, making pandas a versatile tool for working with data in Python.
+1. **Descriptive statistics**:
+
+   Pandas can generate summary statistics for each numerical column in your DataFrame:
+
+   ```python
+   # Generate summary statistics for numerical columns
+   print(tips.describe())
+   ```
+
+   This will show important metrics such as the mean, standard deviation, and quartiles.
+
+2. **Calculating the average tip**:
+
+   You can use the `mean()` function to calculate the average tip amount:
+
+   ```python
+   # Calculate the average tip
+   avg_tip = tips['tip'].mean()
+   print(f"Average Tip: {avg_tip}")
+   ```
+
+3. **Grouping data by a category**:
+
+   Let’s group the data by the day of the week and calculate the average total bill for each day:
+
+   ```python
+   # Group the data by 'day' and calculate the average total bill for each day
+   avg_bill_per_day = tips.groupby('day')['total_bill'].mean()
+   print(avg_bill_per_day)
+   ```
+
+   Grouping data like this is extremely powerful for analyzing trends.
+
+### Data Cleaning with Pandas
+
+Cleaning data is an essential step in any data analysis process. Let’s explore a few techniques for handling missing data and dealing with duplicates.
+
+1. **Handling missing data**:
+
+   You can check for missing values in your dataset with `isnull()`:
+
+   ```python
+   # Check for missing values
+   print(tips.isnull().sum())
+   ```
+
+   If any missing values are present, you can fill or drop them:
+
+   ```python
+   # Fill missing values with the median
+   tips.fillna(tips.median(), inplace=True)
+
+   # Alternatively, drop rows with missing values
+   # tips.dropna(inplace=True)
+   ```
+
+2. **Removing duplicates**:
+
+   To remove duplicate rows from the dataset:
+
+   ```python
+   # Remove duplicate rows
+   tips.drop_duplicates(inplace=True)
+   ```
+
+### Saving DataFrames to Files
+
+Once you’ve finished analyzing or cleaning your data, you can save your DataFrame to a file. Pandas supports multiple formats like CSV, Excel, and JSON.
+
+1. **Saving a DataFrame to a CSV file**:
+
+   ```python
+   # Save the DataFrame to a CSV file
+   tips.to_csv('tips_cleaned.csv', index=False)
+   ```
+
+2. **Saving a DataFrame to an Excel file**:
+
+   ```python
+   # Save the DataFrame to an Excel file
+   tips.to_excel('tips_cleaned.xlsx', index=False)
+   ```
+
+Pandas is a powerful library for data analysis and manipulation in Python. It provides a wide range of functions for loading, cleaning, analyzing, and saving data, making it an essential tool for data scientists, analysts, and researchers.
+
+Congratulations! Now you know the basics of data analysis with Pandas. You can also now use NumPy to perform mathematical operations. These are fundamental libraries and tools for machine learning in Python, and the tools that follow in this workshop all build upon these two libraries. Next, let's learn about Seaborn, a data visualization library that works well with Pandas.
 
 [Next: Seaborn](02_seaborn.md)
