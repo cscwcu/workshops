@@ -110,3 +110,51 @@ You can save your notebook to preserve your work:
 ### Exercise 6.1
 
 Let's try using OpenCV to load and display an image in a Jupyter Notebook. Follow these steps:
+
+1. **Ensure OpenCV and Matplotlib are Installed**:
+   If you haven’t already installed OpenCV and Matplotlib, open a new terminal window and run the following command:
+
+```bash
+pip install opencv-python matplotlib
+```
+
+2. **Download or Use a Sample Image**:
+   You can download an image from the internet or use a local image. Place the image in the same directory as your Jupyter Notebook, or use an image URL for loading. You can also use the image in this repository.
+
+3. **Write and Run the Following Code** in a Jupyter Notebook:
+
+```python
+# Import necessary libraries
+import cv2
+from matplotlib import pyplot as plt
+
+# Load an image using OpenCV (ensure the path is correct for your local image)
+# If using a URL, you can load the image using requests and BytesIO
+image = cv2.imread('sample_image.jpg')
+
+# Check if the image was loaded correctly
+if image is None:
+      print("Image not found. Please check the file path or URL.")
+else:
+      # Convert the image from BGR (OpenCV default) to RGB for displaying correctly
+      image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+      # Display the image using matplotlib
+      plt.imshow(image_rgb)
+      plt.title('Displayed Image with OpenCV in Jupyter Notebook')
+      plt.axis('off')  # Hide the axis for better display
+      plt.show()
+```
+
+#### Explanation:
+
+- **`cv2.imread('sample_image.jpg')`**: Loads the image from the specified file path.
+- **`cv2.cvtColor(image, cv2.COLOR_BGR2RGB)`**: Converts the image from BGR (used by OpenCV) to RGB (used by most other tools like Matplotlib).
+- **`plt.imshow(image_rgb)`**: Displays the image in the Jupyter Notebook using Matplotlib.
+
+#### Notes:
+
+- Make sure that the image file (`sample_image.jpg`) exists in the working directory, or adjust the file path to the correct location of your image.
+- If you encounter issues loading the image, ensure the file path is correct or try loading an image from a URL.
+
+This exercise demonstrates how you can load and display images interactively in Jupyter Notebooks using OpenCV and Matplotlib. This can be useful for computer vision projects, data exploration, or when presenting results.

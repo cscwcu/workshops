@@ -14,7 +14,7 @@ As of September 16, 2024, Hugging Face Transformers uses NumPy 1.x. If you were 
 pip install 'numpy<2'
 ```
 
-**Note**: This is a great example of when using a virtual environment can be helpful. If you have other projects that require the latest version of NumPy, you can [create a virtual environment](README.md?plain=1#L29) for this workshop and install the required version of NumPy.
+**Note**: This is a great example of when using a virtual environment can be helpful. If you have other projects that require the latest version of NumPy, you can [create a virtual environment](README.md#L29) for this workshop and install the required version of NumPy.
 
 ### Installing Hugging Face Transformers
 
