@@ -12,11 +12,10 @@ This workshop will cover some Python libraries to get you started with machine l
 
 1. [NumPy and Pandas](01_numpy_and_pandas.md)
 2. [Seaborn](02_seaborn.md)
-3. [Scikit-learn](04_scikit-learn.md)
-4. [OpenCV](05_opencv.md)
-5. [Hugging Face Transformers](03_hugging_face_transformers.md)
-6. [Open Source Models](06_open_source_models.md)
-7. [Jupyter Notebooks](07_jupyter_notebooks.md)
+3. [Scikit-learn](03_scikit-learn.md)
+4. [OpenCV](04_opencv.md)
+5. [Hugging Face Transformers](05_hugging_face_transformers.md)
+6. [Jupyter Notebooks](06_jupyter_notebooks.md)
 
 ## 0. Preface: Why Python?
 

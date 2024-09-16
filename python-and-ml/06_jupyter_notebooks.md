@@ -6,11 +6,9 @@
 
 In this section, we'll explore Jupyter Notebooks, an interactive environment that makes it easy to write and run Python code. We will cover the basics of installing Jupyter, creating a notebook, and using it to write and execute code.
 
-### Before We Continue
+Jupyter Notebooks are useful for when you've completed a project, done some data or visualization work, and want to share your results with others. They are also great for teaching and learning, as they allow you to combine code, text, and visualizations in one document.
 
-Before starting, ensure you have Python and `pip` installed on your machine. Jupyter Notebooks can be installed using `pip`, which will also handle any dependencies.
-
-#### Step 1: Installing Jupyter Notebooks
+### Installing Jupyter Notebooks
 
 1. **Open your terminal** (or command prompt) and run the following command to install Jupyter:
 
@@ -24,7 +22,7 @@ Before starting, ensure you have Python and `pip` installed on your machine. Jup
    jupyter --version
    ```
 
-#### Step 2: Starting Jupyter Notebooks
+### Starting Jupyter Notebooks
 
 Once installed, you can start Jupyter Notebooks from your terminal.
 
@@ -34,7 +32,7 @@ jupyter notebook
 
 This command will open the Jupyter Notebook interface in your default web browser.
 
-#### Step 3: Creating a New Notebook
+### Creating a New Notebook
 
 In the Jupyter interface, you can create a new notebook:
 
@@ -81,11 +79,11 @@ Here is some **bold** text and some _italic_ text.
 
 You can save your notebook to preserve your work:
 
-1. Save your notebook by clicking on "File" and then "Save and Checkpoint."
+1. Save your notebook by clicking on "File" and then "Save Notebook" or "Save Notebook As" to save a copy.
 
 2. The notebook is saved as a `.ipynb` file, which you can share with others.
 
-3. Download your notebook by selecting "File" > "Download as" and choosing a format (e.g., `.html`, `.pdf`).
+3. Export your notebook by selecting "File" > "Save and Export Notebook As" and choosing a format (e.g., `.html`, `.pdf`).
 
 ## So why do people use Jupyter Notebooks?
 
@@ -108,3 +106,7 @@ You can save your notebook to preserve your work:
 
    - **Self-Contained Documents:** Jupyter Notebooks can serve as comprehensive documents that include code, results, visualizations, and narrative text all in one place. This makes them excellent for creating reports, tutorials, and presentations.
    - **Export Options:** Notebooks can be exported in various formats such as HTML, PDF, and slides, making it easy to share and present work.
+
+### Exercise 6.1
+
+Let's try using OpenCV to load and display an image in a Jupyter Notebook. Follow these steps:
