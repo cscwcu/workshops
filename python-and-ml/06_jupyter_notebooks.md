@@ -157,4 +157,95 @@ else:
 - Make sure that the image file (`sample_image.jpg`) exists in the working directory, or adjust the file path to the correct location of your image.
 - If you encounter issues loading the image, ensure the file path is correct or try loading an image from a URL.
 
-This exercise demonstrates how you can load and display images interactively in Jupyter Notebooks using OpenCV and Matplotlib. This can be useful for computer vision projects, data exploration, or when presenting results.
+### Exercise 6.2
+
+Let's do some image processing on the picture we just loaded and extract some data from it.
+
+**Perform Basic Image Processing**:
+We'll apply basic image processing techniques such as converting the image to grayscale, applying edge detection, and plotting histograms of color channels.
+
+**Write and Run the Following Code** in Jupyter Notebook:
+
+```python
+# Import necessary libraries
+import cv2
+from matplotlib import pyplot as plt
+
+# Load the image using OpenCV (ensure the path is correct)
+image = cv2.imread('sample_image.jpg')
+
+if image is None:
+    print("Image not found. Please check the file path or URL.")
+else:
+    # Convert the image from BGR (OpenCV default) to RGB for correct display
+    image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+    # Convert the image to grayscale for further processing
+    image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    # Apply edge detection using Canny algorithm
+    edges = cv2.Canny(image_gray, 100, 200)
+
+    # Display original, grayscale, and edge-detected images
+    plt.figure(figsize=(12, 6))
+
+    # Original image
+    plt.subplot(1, 3, 1)
+    plt.imshow(image_rgb)
+    plt.title('Original Image')
+    plt.axis('off')
+
+    # Grayscale image
+    plt.subplot(1, 3, 2)
+    plt.imshow(image_gray, cmap='gray')
+    plt.title('Grayscale Image')
+    plt.axis('off')
+
+    # Edge-detected image
+    plt.subplot(1, 3, 3)
+    plt.imshow(edges, cmap='gray')
+    plt.title('Edge Detection (Canny)')
+    plt.axis('off')
+
+    plt.tight_layout()
+    plt.show()
+
+    # Plotting color histograms for RGB channels
+    # Split the image into R, G, B channels
+    channels = cv2.split(image_rgb)
+    colors = ("r", "g", "b")
+    plt.figure()
+    plt.title("Color Histogram")
+    plt.xlabel("Bins")
+    plt.ylabel("# of Pixels")
+
+    for channel, color in zip(channels, colors):
+        hist = cv2.calcHist([channel], [0], None, [256], [0, 256])
+        plt.plot(hist, color=color)
+        plt.xlim([0, 256])
+
+    plt.show()
+```
+
+#### Explanation:
+
+1. **Grayscale Conversion**:
+
+   - We convert the original image to grayscale using `cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)`, which simplifies the image by reducing the color information to a single intensity channel.
+
+2. **Edge Detection (Canny)**:
+
+   - The **Canny edge detector** is used to find edges in the grayscale image with `cv2.Canny(image_gray, 100, 200)`. This is helpful for detecting outlines of objects in the image.
+
+3. **Displaying Multiple Images**:
+
+   - The original, grayscale, and edge-detected images are displayed side by side using Matplotlib's `subplot()` functionality for comparison.
+
+4. **Color Histogram**:
+   - We plot histograms for the Red, Green, and Blue channels of the image using `cv2.calcHist()`. This gives insights into the distribution of color intensities in the image, which can be useful for tasks like image classification, analysis, or color-based segmentation.
+
+---
+
+Congratulations! You learned how to use Jupyter Notebooks to write and execute Python code, create visualizations, and document your work. Jupyter Notebooks are a powerful tool for data analysis, machine learning, and sharing your projects with others.
+
+[End](end.md)
