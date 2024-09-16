@@ -25,6 +25,8 @@ Scikit-learn is a popular Python library for machine learning that provides simp
 
 ### The Basics of Machine Learning
 
+Before we continue, take some time to go through our [Machine Learning Primer](ml_primer.md) to understand the basic concepts and terminology used in machine learning. This will help you follow along with the examples in this section.
+
 Scikit-learn makes it easy to implement many machine learning algorithms with just a few lines of code. We will start by working with a simple supervised learning problem: predicting whether a flower is of the species **Iris-setosa**, **Iris-versicolor**, or **Iris-virginica** based on its measurements.
 
 ### Loading the Iris Dataset
@@ -185,6 +187,10 @@ Visualizing decision boundaries helps us understand how a machine learning model
    ```
 
    This plot will show how the Decision Tree model splits the feature space into different regions, each representing one of the species.
+
+### Titanic Survival Prediction
+
+Check out our [Titanic Survival Prediction project](titanic_survival/README.md) to see a practical example of using Scikit-learn to predict survival on the Titanic based on passenger data!
 
 ---
 

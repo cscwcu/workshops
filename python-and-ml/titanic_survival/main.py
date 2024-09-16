@@ -50,7 +50,7 @@ def get_audience_input():
     sex = 0 if sex == 'male' else 1
     age = float(input("Enter your age: "))
     fare = float(input("Enter your fare (e.g., 7.25): "))
-    embarked = input("Enter your embarkation port (C = Cherbourg, Q = Queenstown, S = Southampton): ").strip().upper()
+    embarked = input("Enter your embarking port (C = Cherbourg, Q = Queenstown, S = Southampton): ").strip().upper()
     embarked = {'C': 0, 'Q': 1, 'S': 2}[embarked]
 
     # Prepare the input data in the correct format for prediction
@@ -60,6 +60,6 @@ def get_audience_input():
 # Get audience input and make a prediction
 audience_data = get_audience_input()
 prediction = rf_model.predict(audience_data)
-predicted_outcome = "Survived" if prediction[0] == 1 else "Did Not Survive"
+predicted_outcome = "survived" if prediction[0] == 1 else "died"
 
-print(f"The model predicts: You would have {predicted_outcome}.")
+print(f"The model predicts: You would have {predicted_outcome}!")

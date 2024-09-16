@@ -16,6 +16,8 @@ pip install 'numpy<2'
 
 **Note**: This is a great example of when using a virtual environment can be helpful. If you have other projects that require the latest version of NumPy, you can [create a virtual environment](README.md#L29) for this workshop and install the required version of NumPy.
 
+When running the code in this exercise (and working with LLMs in general), the `transformers` library will download the model weights from the Hugging Face model hub. This may take some time, depending on the size of the model and your internet connection speed.
+
 ### Installing Hugging Face Transformers
 
 1. **Open your terminal** (or command prompt) and run the following command to install the Hugging Face `transformers` library:

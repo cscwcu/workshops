@@ -1,4 +1,3 @@
-
 # Titanic Survival Prediction
 
 This project demonstrates a simple machine learning classification task using the Titanic dataset. The goal is to predict whether a passenger would have survived the Titanic disaster based on their class, sex, age, fare, and embarkation port.
@@ -10,6 +9,7 @@ Using a Random Forest Classifier, we train a model on the Titanic dataset to cla
 ### Dataset
 
 The dataset used is from the [Datasciencedojo Titanic dataset](https://github.com/datasciencedojo/datasets/blob/master/titanic.csv). The relevant features used in this project include:
+
 - **Pclass**: Passenger class (1st, 2nd, 3rd)
 - **Sex**: Gender (male/female)
 - **Age**: Passenger's age
@@ -24,7 +24,7 @@ The dataset is preprocessed to handle missing data and encode categorical variab
 
    ```bash
    git clone https://github.com/cscwcu/workshops.git
-   cd machine-learning/titanic_survival
+   cd python-and-ml/titanic_survival
    ```
 
 2. **Install the necessary dependencies**:
