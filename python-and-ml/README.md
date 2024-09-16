@@ -1,6 +1,6 @@
 # Python and Machine Learning Workshop
 
-#### Author(s): Computer Science Club at Western Carolina University
+#### Author(s): Daniel Aoulou, Zach Eanes, Kaushal Patel (Computer Science Club at Western Carolina University)
 
 Last revised: 09-16-2024
 

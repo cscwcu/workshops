@@ -1,12 +1,12 @@
-# GitHub Workshop
+# Git and GitHub Workshop
 
-#### Author(s): CS Club @ WCU
+#### Author(s): Daniel Aoulou (Computer Science Club at Western Carolina University)
 
 Last revised: 09-12-2024
 
 ## Description
 
-This workshop will cover the basics of using GitHub. We will cover the following topics:
+This workshop will cover the basics of using Git and GitHub. We will cover the following topics:
 
 - Installing and using git on the command line
 - Creating a local repository and pushing it to GitHub
