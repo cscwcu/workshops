@@ -56,7 +56,7 @@ Scikit-learn comes with some built-in datasets, including the famous **Iris** da
 
 ### Building a Simple Machine Learning Model
 
-Now that we have the data loaded, let’s train a machine learning model to classify the species of Iris flowers based on their measurements. We will use a **Decision Tree Classifier** for this task, which is a simple yet effective algorithm.
+Now that we have the data loaded, let’s train a machine learning model to classify the species of Iris flowers based on their measurements. We will use a **Decision Tree Classifier** for this task, which is a simple yet effective algorithm for classification problems.
 
 1. **Splitting the data into training and test sets**:
 
@@ -66,11 +66,13 @@ Now that we have the data loaded, let’s train a machine learning model to clas
    from sklearn.model_selection import train_test_split
 
    # Split the data into training and testing sets (80% train, 20% test)
-   X = iris_df.drop(columns=['species'])  # Features (sepal/petal measurements)
+   X = iris_df[['sepal length (cm)', 'sepal width (cm)']]  # Features (sepal measurements)
    y = iris_df['species']  # Labels (species)
 
    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
    ```
+
+   Here, we are using the sepal length and sepal width as features to predict the species of the flowers.
 
 2. **Training the Decision Tree Classifier**:
 
@@ -101,6 +103,8 @@ Now that we have the data loaded, let’s train a machine learning model to clas
 
    The predicted species (numerical form) will be compared to the actual species to see how well the model performed.
 
+   Just like that, you've created a simple machine learning model using Scikit-learn!
+
 ### Evaluating the Model’s Performance
 
 We can evaluate the performance of our model using accuracy, which is the percentage of correct predictions.
@@ -117,9 +121,7 @@ We can evaluate the performance of our model using accuracy, which is the percen
 
    The accuracy score will tell us how often the model correctly predicted the species of the flowers in the test set.
 
----
-
-### Exercise 3.1: Training a k-Nearest Neighbors Classifier
+### Training a k-Nearest Neighbors Classifier
 
 Now that you've built a Decision Tree Classifier, let's try another popular algorithm: **k-Nearest Neighbors (k-NN)**. The k-NN algorithm is easy to understand and often performs well on simple datasets.
 
@@ -148,11 +150,15 @@ Now that you've built a Decision Tree Classifier, let's try another popular algo
 
 3. **Compare the performance** of the k-NN model to the Decision Tree model. Which one performed better on the Iris dataset?
 
----
-
-### Exercise 3.2: Visualizing Decision Boundaries
+### Visualizing Decision Boundaries
 
 To better understand how machine learning models make decisions, let's visualize the decision boundaries created by the Decision Tree model.
+
+In machine learning, a decision boundary is a line or surface that separates different classes in the feature space. When a model like a Decision Tree or k-Nearest Neighbors classifies new data points, it does so by determining on which side of the decision boundary those points fall.
+
+In a simple two-dimensional example, if we plot two features (like sepal length and sepal width), the decision boundary would be a line that splits the feature space into regions corresponding to different classes, such as the three Iris species. Any point on one side of the boundary is predicted to belong to one class, and points on the other side belong to another class.
+
+Visualizing decision boundaries helps us understand how a machine learning model separates different classes and makes predictions.
 
 1. **Visualize the decision boundaries** using the following code:
 
@@ -160,7 +166,7 @@ To better understand how machine learning models make decisions, let's visualize
    import numpy as np
    import matplotlib.pyplot as plt
 
-   # Create a mesh grid to plot the decision boundaries
+   # Create a mesh grid
    x_min, x_max = X_train.iloc[:, 0].min() - 1, X_train.iloc[:, 0].max() + 1
    y_min, y_max = X_train.iloc[:, 1].min() - 1, X_train.iloc[:, 1].max() + 1
    xx, yy = np.meshgrid(np.arange(x_min, x_max, 0.1), np.arange(y_min, y_max, 0.1))
@@ -172,7 +178,7 @@ To better understand how machine learning models make decisions, let's visualize
    # Plot the decision boundary
    plt.contourf(xx, yy, Z, alpha=0.8)
    plt.scatter(X_train.iloc[:, 0], X_train.iloc[:, 1], c=y_train, edgecolor='k', marker='o')
-   plt.title('Decision Tree Decision Boundaries')
+   plt.title('Decision Tree Decision Boundaries (Using Sepal Length and Sepal Width)')
    plt.xlabel('Sepal Length')
    plt.ylabel('Sepal Width')
    plt.show()
@@ -183,5 +189,7 @@ To better understand how machine learning models make decisions, let's visualize
 ---
 
 In this section, we installed Scikit-learn, trained a Decision Tree classifier, and evaluated its performance. We also compared it to a k-Nearest Neighbors model and visualized the decision boundaries. Scikit-learn's simplicity and versatility make it a great choice for building and testing machine learning models.
+
+In the next section, we will explore a popular library for computer vision: OpenCV.
 
 [Next: OpenCV](04_opencv.md)
