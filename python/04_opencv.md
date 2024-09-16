@@ -4,13 +4,11 @@
 
 [Back: Scikit-learn](03_scikit-learn.md)
 
-In this section, we will learn how to install OpenCV, a powerful Python library for computer vision and image processing. We will use OpenCV to load, manipulate, and analyze images.
+In this section, we will learn about OpenCV, a powerful Python library for computer vision and image processing. We will use OpenCV to load, manipulate, and analyze images.
 
-### Before We Continue
+OpenCV is great for a wide range of tasks, including image loading, displaying, processing, and computer vision applications. An app that recognizes faces in images, a system that detects objects in videos, and a tool that measures distances in images are just a few examples of what you can build with OpenCV.
 
-Before we dive into OpenCV, make sure you have Python and `pip` installed. OpenCV can be installed using `pip` and will work on any platform (Windows, macOS, Linux).
-
-#### Step 1: Installing OpenCV
+### Installing OpenCV
 
 1. **Open your terminal** (or command prompt) and run the following command to install OpenCV:
 
@@ -27,7 +25,7 @@ Before we dive into OpenCV, make sure you have Python and `pip` installed. OpenC
 
    If there are no errors and the version is printed, OpenCV is installed correctly.
 
-#### Step 2: Loading and Displaying an Image
+### Loading and Displaying an Image
 
 OpenCV is commonly used for image loading, displaying, and processing. Let’s start by loading and displaying an image.
 
@@ -56,7 +54,7 @@ OpenCV is commonly used for image loading, displaying, and processing. Let’s s
    - **`cv2.waitKey(0)`**: Waits for a key press before closing the window.
    - **`cv2.destroyAllWindows()`**: Closes all OpenCV windows.
 
-#### Step 3: Basic Image Manipulation
+### Basic Image Manipulation
 
 Now that we’ve loaded and displayed an image, let’s perform some basic image manipulations, such as resizing, converting to grayscale, and drawing shapes.
 
@@ -99,7 +97,7 @@ Now that we’ve loaded and displayed an image, let’s perform some basic image
 
    - **`cv2.rectangle()`**: Draws a rectangle on the image. The arguments specify the top-left and bottom-right corners of the rectangle, the color (in BGR format), and the thickness.
 
-#### Step 4: Basic Image Processing Techniques
+### Basic Image Processing Techniques
 
 OpenCV provides many functions for image processing. Let's explore two basic operations: blurring an image and detecting edges.
 
@@ -133,9 +131,7 @@ OpenCV provides many functions for image processing. Let's explore two basic ope
 
    - **`cv2.Canny()`**: Detects edges in the image. The two arguments (100, 200) are thresholds for edge detection.
 
----
-
-### Exercise 4.1: Image Thresholding
+### Image Thresholding
 
 Thresholding is an important technique in image processing where we convert a grayscale image into a binary image by choosing a threshold value. Pixels below the threshold are turned black, and pixels above are turned white.
 
@@ -156,9 +152,7 @@ Thresholding is an important technique in image processing where we convert a gr
 
 2. **Try different threshold values** to see how it affects the image.
 
----
-
-### Exercise 4.2: Drawing and Writing on Images
+### Drawing and Writing on Images
 
 In this exercise, you will draw shapes and text on an image using OpenCV’s drawing functions.
 
@@ -184,6 +178,8 @@ In this exercise, you will draw shapes and text on an image using OpenCV’s dra
 
 ---
 
-In this section, we installed OpenCV, loaded and displayed images, performed basic image manipulations like resizing and grayscale conversion, and explored image processing techniques like blurring and edge detection. You also learned how to draw shapes and add text to images. OpenCV provides powerful tools for working with images, making it a great library for computer vision projects.
+Congrats! You've just learned how to use OpenCV for image loading, manipulation, and processing. OpenCV is a powerful library with many more features for computer vision and image processing tasks. By using features such as edge detection, thresholding, and drawing functions, you can perform a wide range of image processing tasks. Combining these techniques with machine learning models can lead to powerful computer vision applications.
+
+Next, we will explore Hugging Face Transformers, a popular library for natural language processing tasks.
 
 [Next: Hugging Face Transformers](05_hugging_face_transformers.md)
