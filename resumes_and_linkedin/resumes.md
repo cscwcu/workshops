@@ -1,8 +1,10 @@
 # Resumes in Computer Science
 
-By: Zachary Eanes - [GitHub](https://github.com/zteanes) - [LinkedIn](https://www.linkedin.com/in/zteanes/)
-On: February 2025
-For: Resumes and LinkedIn Workshop for CSC
+__By:__ Zachary Eanes - [GitHub](https://github.com/zteanes) - [LinkedIn](https://www.linkedin.com/in/zteanes/)
+
+__On:__ February 2025
+
+__For:__ Resumes and LinkedIn Workshop for CSC
 
 
 ## Why does a resume matter?
