@@ -19,5 +19,6 @@ Most of the points will be based on personal experience and/or preference, as we
 5. [Free software for computer science students](free_software.md)
 6. [Extra-curricular activities](extra_curricular_activities.md)
 7. [Mental health tips](mental_health.md)
+8. [End](end.md)
 
 [Next: Study Tips](study_tips.md)
