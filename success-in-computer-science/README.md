@@ -15,6 +15,7 @@ to be effective.
 
 1. [Study tips](study_tips.md)
 2. [Working on projects](working_on_projets.md)
+3. [Time management](time_management.md)
 3. [WCU Resources](wcu_resources.md)
 4. [Free software for computer science students](free_software.md)
 5. [Extra-curricular activities](extra_curricular_activities.md)
