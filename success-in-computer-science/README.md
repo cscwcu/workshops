@@ -1,8 +1,8 @@
 # Success in Computer Science
 
-#### Author(s): Michael Imerman, Daniel Aoulou (Computer Science Club at Western Carolina University)
+#### Author(s): Michael Imerman, Daniel Aoulou, Zach Eanes (Computer Science Club at Western Carolina University)
 
-Last revised: 02-03-2025
+Last revised: 02-04-2025
 
 ## Description
 
