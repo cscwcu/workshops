@@ -1,4 +1,4 @@
-## 4 WCU Resources
+# 4 WCU Resources
 
 [Home](README.md)
 
@@ -66,4 +66,4 @@ The WCU Math and Computer Science Discord server is a great resource for student
 
 Use [this link](https://discord.gg/aHAS6UDZ6z) to join the server!
 
-[Back: WCU Resources](wcu_resources.md) | [Next: Free Software for Computer Science Students](free_software.md)
+[Back: Time Management](time_management.md) | [Next: Free Software for Computer Science Students](free_software.md)
