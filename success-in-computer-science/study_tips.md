@@ -1,4 +1,4 @@
-## 1 Study Tips
+# 1 - Study Tips
 
 [Home](README.md)
 
@@ -52,3 +52,5 @@ If you write too small, you risk not being able to read the text come test time.
 a sufficient amount is important to ensure you are adequately covering the test material. If you
 use a pencil (recommended), use a 0.7 or 0.5 lead pencil to make sure your writing is as precise as
 it can be.
+
+[Back: Home](README.md) | [Next: Working on Projects](working_on_projects.md)
