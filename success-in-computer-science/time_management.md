@@ -4,7 +4,7 @@ By: Zach Eanes (Vice President, CSC at WCU)
 
 [Home](README.md)
 
-This part of the seminal will cover time management tips that have been effective for us computer
+This part of the seminar will cover time management tips that have been effective for us computer
 science students at WCU. This may be personal experience from some of us, or things that are researched
 to be effective for time management. Overall, these tips are what we have found to be successful.
 
@@ -24,6 +24,18 @@ my calendar and seeing what events are next, when tests/projects are due, what m
 like, and of course any extra-curricular's going on. It's just a really good way to keep track of
 everything going on in your life. I personally just use my Apple calendar, but there are PLENTY
 of good apps out there that can help. Just find one you like and stick with it!
+
+#### 3.2.1 To-Do List
+
+Some people will prefer a todo list compared to a stricter calendar or planner. If you think you
+would find it easier to just have a simple arrangement of tasks you have to get done today, do 
+that instead of strictly setting everything up! 
+
+#### 3.2.2 Make your own Deadlines
+You can also set deadlines for yourself which may be more effective than school deadlines. Often 
+school deadlines will overlap, so making your own schedule for when you "have" to get an assignment
+done is really effective. Say you need this project done by Wednesday, so you can finish the other
+project by Friday!
 
 ## 3.3 Stick to a Schedule/Routine
 
