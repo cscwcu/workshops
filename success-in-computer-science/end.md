@@ -4,7 +4,7 @@ Thanks for attending this seminar (or reading these notes)! We hope that you fou
 
 ## Reach out
 
-All the CSC officers are available on Discord, and we're happy to help you with anything you need. We're invested in your success! Join the [Computer Science and Math Server](https://discord.gg/aHAS6UDZ6z) to get in touch with us!
+All the CSC officers are available on Discord, and we're happy to help you with anything you need. We're invested in your success! Join the [Computer Science Club server](https://discord.gg/9245SRF57d) to get in touch with us!
 
 You can also email the CSC at [wcucsc01@gmail.com](mailto:wcucsc01@gmail.com) if you have any questions or need help with anything.
 

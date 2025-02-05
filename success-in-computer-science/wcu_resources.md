@@ -60,4 +60,10 @@ The CCPD also hosts career fairs, networking events, and workshops throughout th
 
 The CCPD is located at 150 Reid and is open Monday through Friday from 8:00 AM to 5:00 PM. Learn more about the CCPD [here](https://www.wcu.edu/learn/academic-enrichment/ccpd/).
 
+## WCU Math and Computer Science Server
+
+The WCU Math and Computer Science Discord server is a great resource for students in the program. The server is a place where students can ask questions, get help with assignments, and connect with other students in the program. The server is also a great place to find out about events, workshops, and other opportunities in the program.
+
+Use [this link](https://discord.gg/aHAS6UDZ6z) to join the server!
+
 [Back: WCU Resources](wcu_resources.md) | [Next: Free Software for Computer Science Students](free_software.md)
