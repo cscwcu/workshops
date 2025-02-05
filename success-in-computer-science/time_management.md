@@ -27,7 +27,7 @@ of good apps out there that can help. Just find one you like and stick with it!
 
 #### 3.2.1 To-Do List
 
-Some people will prefer a todo list compared to a stricter calendar or planner. If you think you
+Some people will prefer a to-do list compared to a stricter calendar or planner. If you think you
 would find it easier to just have a simple arrangement of tasks you have to get done today, do 
 that instead of strictly setting everything up! 
 
@@ -46,7 +46,7 @@ making sure my free time is properly spent studying or getting ahead on projects
 find a routine that works best for you, experiment with a bunch of different options, and just 
 find that one you like the most.
 
-#### 3.4.1 Schedule your Free Time Too!
+#### 3.3.1 Schedule your Free Time Too!
 
 This is a big one that I think a lot of people forget about. It's important to schedule your free
 time as well. This is important because it's easy to get caught up in work and forget to take a break.
@@ -62,3 +62,12 @@ focus or get work done well at night. So I make sure to get up early and get wor
 morning or afternoon, letting my relaxation come in the evening. But, I know plenty of people
 who do their best work burning the midnight oil. Just know when you're most productive and plan
 your day around that.
+
+## 3.5 Don't be Afraid to say No
+
+My fatal flaw in time management is always over-committing and not leaving enough time for me
+to comfortably get everything done and relax a little too. Realize what is most important to 
+you in your academics and personal life, and prioritize those firsts. Plenty of times have I 
+had to step down from extra-curriculars or commitments just because my bandwidth was too low
+for them! Just learn to say no to what you think truly isn't in your best interest.
+
