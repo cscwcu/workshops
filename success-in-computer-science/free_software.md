@@ -1,6 +1,6 @@
 ## 5 Free Software
 
-[Home] (README.md)
+[Home](README.md)
 
 In this section, we will talk about free tools that ourselves and other students in 
 the program use in our daily workflow. These tools help developers become more
