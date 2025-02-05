@@ -6,3 +6,4 @@ This is a repository used to track/store workshops the Computer Science Club at 
 
 1. [Git and Github](github/README.md)
 2. [Python and Machine Learning](python-and-ml/README.md)
+3. [Success in Computer Science](success-in-computer-science/README.md)
