@@ -42,7 +42,7 @@ pull those changes to instantly update their files. If you don't know how to use
 makes it very easy to at least learn the basics that would be used in a lower level class project.
 There are also many great online tutorials that could quickly teach you the basics of Git and GitHub.
 
-### GitHub Student Developer Pack
+### 5.3. 1GitHub Student Developer Pack
 
 GitHub offers a free pack of tools and services to students who are actively enrolled in a university. This pack includes free access to **GitHub Pro** and many other tools and services that can help you in your development workflow.
 
