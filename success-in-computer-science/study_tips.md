@@ -53,4 +53,20 @@ a sufficient amount is important to ensure you are adequately covering the test 
 use a pencil (recommended), use a 0.7 or 0.5 lead pencil to make sure your writing is as precise as
 it can be.
 
+## Tests
+
+Tests are a huge part of the CS curriculum. Often times you'll be asked to memorize concepts, small details, and even code. Here are some tips for studying for tests:
+
+### 1.4.1: _Start Early_
+
+Starting early is crucial for studying for tests. The material you are studying is often complex and requires time to understand. Starting early allows you to ask questions, get help, and understand the material better.
+
+### 1.4.2: _A little at a time_
+
+Studying a little bit each day is much more effective than cramming the night before. Cramming can lead to stress, anxiety, and poor performance on the test. Studying a little bit each day allows you to understand the material better and retain it longer.
+
+### 1.4.3: _Practice Problems_
+
+Practice problems are a great way to prepare for tests. They help you understand the material better and give you a chance to apply what you've learned. Go through your previous tests, worksheets, homework and notes to find practice problems. If you're still struggling, ask your professor for more practice problems.
+
 [Back: Home](README.md) | [Next: Working on Projects](working_on_projects.md)

@@ -1,4 +1,4 @@
-# 4 WCU Resources
+# 4 - WCU Resources
 
 [Home](README.md)
 
@@ -23,7 +23,7 @@ Additionally, the MTC offers:
 
 The Writing and Learning Commons offers free one-on-one writing tutoring for students at any level and at any point in the writing process. Tutors are trained to help students with any writing assignment, from essays to research papers to resumes. Whether you need helping with generating ideas, formatting, or grammar, the Writing and Learning Commons is here to help!
 
-You must set an appointment to meet with a tutor. Appointments can be made online or in person at the Writing and Learning Commons, located in Belk 207. The Writing and Learning Commons is open Monday through Thursday from 8:00 AM to 9:00 PM and Friday from 8:00 AM to 5:00 PM. Learn more about the Writing and Learning Commons [here](https://www.wcu.edu/learn/academic-success/tutoring-services/services-resources/writing-support/)!
+You must set an appointment to meet with a tutor. Appointments can be made online or in person at the Writing and Learning Commons, located in **Belk 207. The Writing and Learning Commons is open Monday through Thursday from 8:00 AM to 9:00 PM and Friday from 8:00 AM to 5:00 PM**. Learn more about the Writing and Learning Commons [here](https://www.wcu.edu/learn/academic-success/tutoring-services/services-resources/writing-support/)!
 
 ## 4.3 Professors
 
@@ -46,6 +46,8 @@ Advisement is a crucial resource for students. Your advisor is there to help you
 
 Most of the time, your advisor will be a professor in the Computer Science department. You can find your advisor's contact information on your MyWCU account. If you are unsure who your advisor is, you can contact the Computer Science department for assistance.
 
+Additionally, each semester there is an advisement day where you can meet with your advisor to plan your schedule for the next semester. Be sure to take advantage of this opportunity to get help with your schedule and ask any questions you may have.
+
 ## 4.5 Center for Career and Professional Development
 
 The Center for Career and Professional Development (CCPD) is a valuable resource for students looking to prepare for life after graduation. The CCPD offers services such as:
@@ -60,7 +62,7 @@ The CCPD also hosts career fairs, networking events, and workshops throughout th
 
 The CCPD is located at 150 Reid and is open Monday through Friday from 8:00 AM to 5:00 PM. Learn more about the CCPD [here](https://www.wcu.edu/learn/academic-enrichment/ccpd/).
 
-## WCU Math and Computer Science Server
+## 4.6 WCU Math and Computer Science Server
 
 The WCU Math and Computer Science Discord server is a great resource for students in the program. The server is a place where students can ask questions, get help with assignments, and connect with other students in the program. The server is also a great place to find out about events, workshops, and other opportunities in the program.
 

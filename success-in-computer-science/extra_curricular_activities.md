@@ -2,7 +2,7 @@
 
 [Home](README.md)
 
-Extra curricular activities are a great way to get involved with the Computer Science program at WCU. They can help you meet new people, learn new things, and even help you get a job. You could join a club, participate in a programming competition, or even work on a project with a professor. Here are some of the extra curricular activities that we recommend:
+Extra curricular activities are a great way to get involved with the Computer Science program at WCU, as well as the larger campus community. They can help you meet new people, learn new things, and even help you get a job. You could join a club, participate in a programming competition, or even work on a project with a professor. Here are some of the extra curricular activities that we recommend:
 
 ## 6.1 Student Organizations
 
@@ -38,13 +38,13 @@ Programming competitions are a great way to test your skills and learn new thing
 
 Reach out to Dr. Scott if you're interested in participating in a programming competition!
 
-## 6.4 Research Opportunities
+## 6.3 Research Opportunities
 
 WCU has lots of opportunities for students to get involved with research! One of these ways is through the Louis Stokes Alliance for Minority Participation (LSAMP) program. LSAMP is a program that helps underrepresented students get involved with research and other activities that will help them succeed in STEM fields.
 
 If you have a topic you're interested in researching, reach out to a professor in the department to see if they have any opportunities for you to get involved. You could work on a project with a professor, or even get funding to do your own research!
 
-## 6.5 Sympoiums and Other Events
+## 6.4 Sympoiums and Other Events
 
 The Math and Computer Science department hosts a number of events throughout the year, including various symposiums and talks from alumni and faculty. These events are a great way to hear about interesting new topics, learn about what other students are working on, and even get involved with research.
 

@@ -2,7 +2,7 @@
 
 [Home](README.md)
 
-Mental health is an important aspect of being a successful student. It's important to take care of yourself and make sure that you're in a good place mentally. Here are some tips for maintaining good mental health:
+Mental health is an important aspect of being a successful student. Computer science is a challenging, demanding field. It's important to take care of yourself and make sure that you're in a good place mentally. Here are some tips for maintaining good mental health:
 
 ## 6.1 Take Breaks
 
@@ -18,13 +18,15 @@ Eating well is important for your mental health. Try to eat a balanced diet with
 
 Exercise is also important for your mental health. Try to get at least 30 minutes of exercise each day. You can go for a walk, run, bike ride, or even just do some stretches in your room. Exercise can help reduce stress, improve your mood, and help you sleep better.
 
-## 6.4 Socialize!
+## 6.4 Build Rest into Your Routine
+
+Burnout is something that all of us face, and many times we think that the cure for it is a long break. In our experience, it's better to build rest into your routine. This could be a day off from studying, a day off from work, or even just a few hours to relax and do something you enjoy. It's important to take care of yourself and make sure that you're not overworking yourself. This way, instead of needing a long break (which usually comes after crashing from working for so long), you can take short, regular breaks and stay healthy and happy.
+
+## 6.5 Socialize!
 
 One of the best ways to manage stress and improve your mental health is to socialize with others. Try to spend time with friends, family, or even just talk to someone in your class. Playing video games with your friends absolutely counts. You can also join a club or organization on campus, or even just go to an event or meeting. As newer students, it can be hard to join a community or find friends. It's tempting to stay in your room and avoid socializing, but this can actually make your mental health worse. Socializing can help you relax, reduce stress, and improve your mood.
 
-## 6.5 Build Rest into Your Routine
-
-Burnout is something that all of us face, and many times we think that the cure for it is a long break. In our experience, it's better to build rest into your routine. This could be a day off from studying, a day off from work, or even just a few hours to relax and do something you enjoy. It's important to take care of yourself and make sure that you're not overworking yourself. This way, instead of needing a long break (which usually comes after crashing from working for so long), you can take short, regular breaks and stay healthy and happy.
+Look for casual club events, like movie nights or game nights, to meet new people and make friends. You can also join a study group or work on a project with a classmate. It's important to have a support system of friends and family who can help you when you're feeling stressed or overwhelmed.
 
 ## 6.6 Seek Help
 
