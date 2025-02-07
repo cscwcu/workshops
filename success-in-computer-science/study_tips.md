@@ -53,7 +53,7 @@ a sufficient amount is important to ensure you are adequately covering the test 
 use a pencil (recommended), use a 0.7 or 0.5 lead pencil to make sure your writing is as precise as
 it can be.
 
-## Tests
+## 1.4 Tests
 
 Tests are a huge part of the CS curriculum. Often times you'll be asked to memorize concepts, small details, and even code. Here are some tips for studying for tests:
 

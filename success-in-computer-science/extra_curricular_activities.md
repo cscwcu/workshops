@@ -8,17 +8,17 @@ Extra curricular activities are a great way to get involved with the Computer Sc
 
 Student organizations are a great way to get involved not just with the Computer Science program, but with the campus community as a whole. There are tons of student organizations that you can join, and they all host events, meetings, and other activities that you can get involved with:
 
-### Engage
+### 6.1.1 Engage
 
 Engage is the best way to find interesting events and activities on campus. On Engage, student organizations post events, meetings, and other activities that you can get involved with. You can also use Engage to find clubs to join, events to go to, and even volunteer opportunities! It's a great way to stay connected with what's happening on campus. There are some surprising fun events on Engage, too, such as snowboarding and caving!
 
-### Valley Balleyhoo
+### 6.1.2 Valley Balleyhoo
 
 Valley Balleyhoo is a great way to learn about all of the clubs and organizations on campus. At Valley Balleyhoo, you can meet representatives from different clubs, learn about what they do, and even sign up to join! Most clubs offer free treats and swag, so it's a great way to learn about what's happening on campus and get involved with something new.
 
 Valley Balleyhoo is hosted every year at the beginning of the fall semester. Keep an eye out for announcements about the event, and make sure to stop by to learn about all of the great clubs and organizations on campus!
 
-### Computer Science Club
+### 6.1.3 Computer Science Club
 
 The **Computer Science Club** is a great way to connect with other students in the program! The club hosts events like hackathons, workshops, and guest speakers. They also host social events like game and movie nights! It's a great way to learn new things and make new friends.
 
@@ -26,7 +26,7 @@ You can also get involved in the club by becoming an officer or helping to organ
 
 You can learn more information about the CS Club by visiting their [website](https://cscwcu.org/)!
 
-### Math Club
+### 6.1.4 Math Club
 
 The **Math Club** is another great way to get involved with the program. The club hosts events like math competitions, games, and other social events. As computer science students, it's also important to have a strong math background, so the Math Club is a great way to learn new things and improve your math skills.
 
