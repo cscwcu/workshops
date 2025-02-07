@@ -34,7 +34,7 @@ The Math Club also needs officers! If you're interested in becoming an officer, 
 
 ## 6.2 Programming Competitions
 
-Programming competitions are a great way to test your skills and learn new things. WCU Computer Science students have participated in a number of local and national competitions, including....
+Programming competitions are a great way to test your skills and learn new things. WCU Computer Science students have participated in a number of local and national competitions, including the (Consortium for Computing Sciences in Colleges: Southeastern) CCSC:SE competition.
 
 Reach out to Dr. Scott if you're interested in participating in a programming competition!
 
