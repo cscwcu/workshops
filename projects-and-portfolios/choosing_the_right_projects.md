@@ -2,7 +2,7 @@
 
 [Home](README.md)
 
-## What makes a good project?
+## What makes a great project?
 
 When choosing a project to work on, it's important to consider a few things. Taking the time to think about these considerations could be the difference between a good project and a great project:
 
