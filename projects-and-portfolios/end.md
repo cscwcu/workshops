@@ -4,10 +4,11 @@ Projects and portfolios are an essential part of a computer science student's jo
 
 Here are some final tips to help you succeed in building projects and portfolios:
 
--   **Build, then refine**: Don't be afraid to start building projects, even if you're not sure where to begin. The more projects you work on, the more you'll learn, and the better your projects will become over time.
--   **Collaborate with others**: Working on projects with others can help you learn new skills, get feedback on your work, and build connections with other developers. Don't be afraid to reach out to others and ask for help or feedback.
--   **Show off your work**: Once you've completed a project, make sure to showcase it in your portfolio. Once you've built your portfolio and/or personal site, show that off too! Post on LinkedIn or attach it to your resume and GitHub profile.
--   **Stay curious**: The tech industry is always changing, so it's important to stay curious and keep learning. Take the time to explore new technologies, work on side projects, and stay up to date with the latest trends in the industry.
+-   **Build, then refine!** Don't be afraid to start building projects, even if you're not sure where to begin. The more projects you work on, the more you'll learn, and the better your projects will become over time.
+-   **Collaborate with others!** Working on projects with others can help you learn new skills, get feedback on your work, and build connections with other developers. Don't be afraid to reach out to others and ask for help or feedback.
+-   **Show off your work!** Once you've completed a project, make sure to showcase it in your portfolio. Once you've built your portfolio and/or personal site, show that off too! Post on LinkedIn or attach it to your resume and GitHub profile.
+-   **Stay curious!** The tech industry is always changing, so it's important to stay curious and keep learning. Take the time to explore new technologies, work on side projects, and stay up to date with the latest trends in the industry.
+-   **Research!** There are lots of online design challenges that you can use to kick-start your creativity. We are personal favorites of the [Bletchley Institute](https://www.bletchley.org/) challenges, which are often accompanied by creative storytelling to give your projects a life of their own!
 
 Remember, building projects and portfolios is a journey, not a destination. It's okay to make mistakes, to try new things, and to learn as you go. The most important thing is to keep building, keep learning, and keep growing as a developer.
 
