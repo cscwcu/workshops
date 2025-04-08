@@ -51,7 +51,7 @@ We've built a [Submission Portal](https://csc-rtcsp.onrender.com/) to make it ea
 
 [https://csc-rtcsp.onrender.com/](https://csc-rtcsp.onrender.com/)
 
-To make a submission, you'll need a LeetCode account. Once you have an account, you can submit your solutions to the problems in the list. Please make sure to follow the submission guidelines below:
+To make a submission, you'll need a [LeetCode account](https://leetcode.com/accounts/login/). Once you have an account, you can submit your solutions to the problems in the list. Please make sure to follow the submission guidelines below:
 
 1. **Solve the problem**: Choose a problem from the list and solve it using your preferred programming language.
 2. **Submit your solution**: Once you have a working solution, submit it on LeetCode.

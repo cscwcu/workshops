@@ -1,5 +1,9 @@
 ## LeetCode Problem List
 
+[Back to README](README.md)
+
+[LeetCode](https://leetcode.com/) problems for the marathon. The problems are categorized by difficulty level and are assigned points based on their difficulty level.
+
 ### 🟢 Easy
 
 1. Two Sum | [🔗](https://leetcode.com/problems/two-sum/)
