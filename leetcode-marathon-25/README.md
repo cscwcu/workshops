@@ -43,7 +43,7 @@ The problems for the marathon are from LeetCode and are assigned points based on
 -   **Medium**: 3 points
 -   **Hard**: 5 points
 
-There is a preset list of problems. **Only submissions to the problems in the list will be counted towards your score.** You can find them [here](problems.md)!
+There is a preset list of problems. **Only submissions to the problems in the list will be counted towards your score.** They'll be released on the day of the marathon.
 
 ## Submissions
 
